@@ -1,0 +1,42 @@
+# MedLlama DPO Training Configuration
+
+model:
+  name: "checkpoints/sft"  # Use SFT checkpoint as base
+  ref_model: "meta-llama/Llama-3.1-8B-Instruct"  # Original as reference
+  max_seq_length: 2048
+  precision: "bf16"
+
+fsdp:
+  enabled: true
+  sharding_strategy: "FULL_SHARD"
+  auto_wrap_policy: "transformer_based_wrap"
+
+training:
+  method: "dpo"
+  beta: 0.1
+  learning_rate: 5.0e-6
+  weight_decay: 0.01
+  warmup_ratio: 0.1
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 1
+  num_train_epochs: 1
+  gradient_checkpointing: true
+  lr_scheduler_type: "cosine"
+  max_grad_norm: 1.0
+  save_strategy: "epoch"
+  logging_steps: 10
+  seed: 42
+
+data:
+  train_file: "data/dpo/medllama-dpo-train.jsonl"
+  eval_file: "data/dpo/medllama-dpo-eval.jsonl"
+  eval_split_ratio: 0.05
+  max_samples: 3000
+
+output:
+  dir: "checkpoints/dpo"
+
+wandb:
+  project: "medllama"
+  run_name: "dpo-llama3.1-8b"
+  tags: ["dpo", "medical", "llama3.1"]

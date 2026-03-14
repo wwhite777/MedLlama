@@ -1,0 +1,60 @@
+# MedLlama SFT Training Configuration
+# Full fine-tuning with FSDP on 4x L40S (Day 2)
+# Fallback: QLoRA on single GPU 2
+
+model:
+  name: "meta-llama/Llama-3.1-8B-Instruct"
+  max_seq_length: 2048
+  precision: "bf16"
+
+# Primary: Full fine-tuning with FSDP
+fsdp:
+  enabled: true
+  sharding_strategy: "FULL_SHARD"
+  auto_wrap_policy: "transformer_based_wrap"
+  backward_prefetch: "BACKWARD_PRE"
+  forward_prefetch: true
+  use_orig_params: true
+
+training:
+  method: "full_finetune"
+  learning_rate: 2.0e-5
+  weight_decay: 0.01
+  warmup_ratio: 0.03
+  per_device_train_batch_size: 8
+  gradient_accumulation_steps: 1
+  num_train_epochs: 2
+  gradient_checkpointing: true
+  lr_scheduler_type: "cosine"
+  max_grad_norm: 1.0
+  save_strategy: "epoch"
+  logging_steps: 10
+  eval_steps: 200
+  eval_strategy: "steps"
+  seed: 42
+
+# Fallback: QLoRA on single GPU
+qlora:
+  enabled: false
+  quantization: "nf4"
+  lora_rank: 64
+  lora_alpha: 128
+  lora_dropout: 0.05
+  target_modules: "all-linear"
+  learning_rate: 2.0e-4
+  num_train_epochs: 3
+
+data:
+  train_file: "data/sft/medllama-sft-train.jsonl"
+  eval_file: "data/sft/medllama-sft-eval.jsonl"
+  eval_split_ratio: 0.05
+  max_samples: 15000
+
+output:
+  dir: "checkpoints/sft"
+  hub_model_id: null
+
+wandb:
+  project: "medllama"
+  run_name: "sft-llama3.1-8b"
+  tags: ["sft", "medical", "llama3.1"]

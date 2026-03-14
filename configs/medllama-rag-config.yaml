@@ -1,0 +1,52 @@
+# MedLlama RAG Pipeline Configuration
+
+qdrant:
+  host: "localhost"
+  port: 6333
+  collection_name: "medllama_pubmed"
+  vector_size: 1024  # BGE-M3 dimension
+  distance: "Cosine"
+  hnsw:
+    m: 16
+    ef_construct: 100
+    on_disk: false
+
+embedding:
+  model: "BAAI/bge-m3"
+  device: "cuda:2"
+  batch_size: 64
+  max_length: 512
+  normalize: true
+
+pubmed:
+  email: "hkbigdream@gmail.com"
+  max_abstracts: 10000
+  search_terms:
+    - "clinical medicine"
+    - "diagnosis treatment"
+    - "pharmacology drug therapy"
+    - "pathophysiology disease"
+    - "medical guidelines"
+  retmax_per_query: 2500
+  min_abstract_length: 100
+
+chunking:
+  strategy: "semantic"
+  max_chunk_size: 512
+  chunk_overlap: 50
+  min_chunk_size: 100
+
+retrieval:
+  dense_top_k: 20
+  bm25_top_k: 20
+  rrf_k: 60  # RRF constant
+  final_top_k: 5
+  reranker:
+    model: "BAAI/bge-reranker-v2-m3"
+    device: "cuda:2"
+    top_k: 5
+
+agentic_rag:
+  max_iterations: 3
+  confidence_threshold: 0.7
+  query_expansion: true
