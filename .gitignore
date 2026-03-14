@@ -4,7 +4,6 @@ __pycache__/
 .eggs/
 dist/
 build/
-*.gpg
 wandb/
 checkpoints/
 data/
