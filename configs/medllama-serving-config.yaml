@@ -1,7 +1,7 @@
 # MedLlama Serving Configuration
 
 vllm:
-  model: "checkpoints/dpo"  # Final fine-tuned model
+  model: "checkpoints/merged"  # Final merged fine-tuned model
   dtype: "bfloat16"
   gpu_memory_utilization: 0.9
   max_model_len: 4096
