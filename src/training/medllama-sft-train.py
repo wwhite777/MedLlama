@@ -84,7 +84,7 @@ def setup_qlora_model(model_name: str, qlora_cfg: dict):
         quantization_config=bnb_config,
         device_map="auto",
         torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
+        attn_implementation="sdpa",
         trust_remote_code=True,
     )
     model = prepare_model_for_kbit_training(model, use_gradient_checkpointing=True)
@@ -114,7 +114,7 @@ def setup_full_ft_model(model_name: str):
     model = AutoModelForCausalLM.from_pretrained(
         model_name,
         torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
+        attn_implementation="sdpa",
         trust_remote_code=True,
     )
     # Enable gradient checkpointing for memory efficiency
@@ -219,7 +219,8 @@ def main():
         "logging_steps": train_cfg["logging_steps"],
         "eval_strategy": train_cfg.get("eval_strategy", "steps"),
         "eval_steps": train_cfg.get("eval_steps", 200),
-        "save_strategy": train_cfg["save_strategy"],
+        "save_strategy": "steps",
+        "save_steps": train_cfg.get("eval_steps", 200),
         "save_total_limit": 2,
         "load_best_model_at_end": True,
         "metric_for_best_model": "eval_loss",
@@ -239,7 +240,7 @@ def main():
 
     sft_config = SFTConfig(
         **training_args_dict,
-        max_seq_length=model_cfg["max_seq_length"],
+        max_length=model_cfg["max_seq_length"],
         packing=False,
     )
 
