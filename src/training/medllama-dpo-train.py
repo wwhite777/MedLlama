@@ -110,30 +110,54 @@ def main():
         console.print("[bold]Loading data...[/bold]")
     train_ds, eval_ds = load_dpo_data(str(train_path), str(eval_path))
 
-    # Load policy model (SFT checkpoint)
+    # Load policy model (SFT checkpoint — may be LoRA adapter or full model)
     if is_main:
         console.print(f"[bold]Loading policy model ({model_name})...[/bold]")
 
-    model = AutoModelForCausalLM.from_pretrained(
-        model_name,
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
-        trust_remote_code=True,
-    )
-    model.gradient_checkpointing_enable(
-        gradient_checkpointing_kwargs={"use_reentrant": False}
-    )
+    sft_path = project_root / model_name
+    adapter_config_path = sft_path / "adapter_config.json"
+    peft_config = None
 
-    # Load reference model
+    if adapter_config_path.exists():
+        # SFT checkpoint is a LoRA adapter — load base in 4-bit + apply adapter
+        if is_main:
+            console.print("[yellow]  Detected LoRA adapter, loading with QLoRA base...[/yellow]")
+        from peft import PeftModel, LoraConfig
+        from transformers import BitsAndBytesConfig
+
+        bnb_config = BitsAndBytesConfig(
+            load_in_4bit=True,
+            bnb_4bit_quant_type="nf4",
+            bnb_4bit_compute_dtype=torch.bfloat16,
+            bnb_4bit_use_double_quant=True,
+        )
+        base_model = AutoModelForCausalLM.from_pretrained(
+            ref_model_name,
+            quantization_config=bnb_config,
+            device_map="auto",
+            torch_dtype=torch.bfloat16,
+            attn_implementation="sdpa",
+            trust_remote_code=True,
+        )
+        model = PeftModel.from_pretrained(base_model, str(sft_path), is_trainable=True)
+        if is_main:
+            console.print("[green]  LoRA adapter loaded on quantized base[/green]")
+            model.print_trainable_parameters()
+    else:
+        model = AutoModelForCausalLM.from_pretrained(
+            model_name,
+            torch_dtype=torch.bfloat16,
+            attn_implementation="sdpa",
+            trust_remote_code=True,
+        )
+        model.gradient_checkpointing_enable(
+            gradient_checkpointing_kwargs={"use_reentrant": False}
+        )
+
+    # Reference model — None lets DPOTrainer use the base model implicitly
     if is_main:
-        console.print(f"[bold]Loading reference model ({ref_model_name})...[/bold]")
-
-    ref_model = AutoModelForCausalLM.from_pretrained(
-        ref_model_name,
-        torch_dtype=torch.bfloat16,
-        attn_implementation="flash_attention_2",
-        trust_remote_code=True,
-    )
+        console.print("[bold]Using implicit reference model (precomputed ref logprobs)[/bold]")
+    ref_model = None
 
     # Training arguments
     output_dir = str(project_root / output_cfg["dir"])
@@ -171,7 +195,6 @@ def main():
         gradient_checkpointing=True,
         gradient_checkpointing_kwargs={"use_reentrant": False},
         max_length=model_cfg["max_seq_length"],
-        max_prompt_length=model_cfg["max_seq_length"] // 2,
         remove_unused_columns=False,
         **fsdp_kwargs,
     )

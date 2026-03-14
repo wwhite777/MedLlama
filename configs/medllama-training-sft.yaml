@@ -3,7 +3,7 @@
 # Fallback: QLoRA on single GPU 2
 
 model:
-  name: "meta-llama/Llama-3.1-8B-Instruct"
+  name: "Qwen/Qwen2.5-7B-Instruct"
   max_seq_length: 2048
   precision: "bf16"
 
@@ -21,8 +21,8 @@ training:
   learning_rate: 2.0e-5
   weight_decay: 0.01
   warmup_ratio: 0.03
-  per_device_train_batch_size: 8
-  gradient_accumulation_steps: 1
+  per_device_train_batch_size: 4
+  gradient_accumulation_steps: 4
   num_train_epochs: 2
   gradient_checkpointing: true
   lr_scheduler_type: "cosine"
@@ -35,7 +35,7 @@ training:
 
 # Fallback: QLoRA on single GPU
 qlora:
-  enabled: false
+  enabled: true
   quantization: "nf4"
   lora_rank: 64
   lora_alpha: 128
@@ -56,5 +56,5 @@ output:
 
 wandb:
   project: "medllama"
-  run_name: "sft-llama3.1-8b"
-  tags: ["sft", "medical", "llama3.1"]
+  run_name: "sft-qwen2.5-7b"
+  tags: ["sft", "medical", "qwen2.5"]

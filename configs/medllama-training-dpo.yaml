@@ -2,7 +2,7 @@
 
 model:
   name: "checkpoints/sft"  # Use SFT checkpoint as base
-  ref_model: "meta-llama/Llama-3.1-8B-Instruct"  # Original as reference
+  ref_model: "Qwen/Qwen2.5-7B-Instruct"  # Original as reference
   max_seq_length: 2048
   precision: "bf16"
 
@@ -38,5 +38,5 @@ output:
 
 wandb:
   project: "medllama"
-  run_name: "dpo-llama3.1-8b"
-  tags: ["dpo", "medical", "llama3.1"]
+  run_name: "dpo-qwen2.5-7b"
+  tags: ["dpo", "medical", "qwen2.5"]
