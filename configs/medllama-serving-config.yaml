@@ -1,0 +1,28 @@
+# MedLlama Serving Configuration
+
+vllm:
+  model: "checkpoints/dpo"  # Final fine-tuned model
+  dtype: "bfloat16"
+  gpu_memory_utilization: 0.9
+  max_model_len: 4096
+  tensor_parallel_size: 1
+  device: "cuda:2"  # Dedicated serving GPU
+  trust_remote_code: true
+
+api:
+  host: "0.0.0.0"
+  port: 8090
+  title: "MedLlama API"
+  version: "0.1.0"
+
+generation:
+  default_max_tokens: 1024
+  default_temperature: 0.3
+  default_top_p: 0.9
+  stop_tokens: ["<|eot_id|>"]
+
+rag:
+  enabled: true
+  config_path: "configs/medllama-rag-config.yaml"
+  include_sources: true
+  max_context_docs: 5
