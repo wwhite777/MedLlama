@@ -1,0 +1,13 @@
+*.pyc
+__pycache__/
+*.egg-info/
+.eggs/
+dist/
+build/
+*.gpg
+wandb/
+checkpoints/
+data/
+*.bin
+*.safetensors
+.env
