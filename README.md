@@ -11,6 +11,8 @@ MedLlama demonstrates end-to-end ML engineering: data curation, QLoRA SFT + DPO 
 
 ## Architecture
 
+<img width="1232" height="643" alt="Image" src="https://github.com/user-attachments/assets/ea3cc4f6-b1f0-4b59-9c33-b8f351b8dc2c" />
+
 ```
 User Query
     |
