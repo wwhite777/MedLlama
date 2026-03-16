@@ -1,0 +1,704 @@
+{
+  "eval_type": "llm_as_judge",
+  "timestamp": "2026-03-14T10:44:36.048973",
+  "model": "/home/wjeong/ml/medllama/checkpoints/merged",
+  "num_samples": 50,
+  "total_time_seconds": 189.9,
+  "average_scores": {
+    "Accuracy": 3.18,
+    "Completeness": 3.02,
+    "Safety": 3.3,
+    "Clarity": 3.6,
+    "Evidence": 3.04
+  },
+  "overall_average": 3.23,
+  "score_distributions": {
+    "Accuracy": {
+      "1": 1,
+      "2": 9,
+      "3": 22,
+      "4": 16,
+      "5": 2
+    },
+    "Completeness": {
+      "1": 1,
+      "2": 15,
+      "3": 18,
+      "4": 14,
+      "5": 2
+    },
+    "Safety": {
+      "1": 1,
+      "2": 9,
+      "3": 21,
+      "4": 12,
+      "5": 7
+    },
+    "Clarity": {
+      "1": 1,
+      "2": 9,
+      "3": 17,
+      "4": 5,
+      "5": 18
+    },
+    "Evidence": {
+      "1": 1,
+      "2": 15,
+      "3": 17,
+      "4": 15,
+      "5": 2
+    }
+  },
+  "per_sample_results": [
+    {
+      "index": 0,
+      "question": "A 5-year-old boy is brought to the physician because of an irregular gait 3 days after receiving age-appropriate vaccinations. Examination of the lower extremities shows no redness or swelling. When the child stands on his right leg, his left leg drops and his pelvis tilts towards the left. Sensatio",
+      "response": "Hi, Thank you for posting your query. I have noted your babys clinical details. It appears that he has developed meningitis due to the vaccination. This is an uncommon complication of vaccines. In meningitis, there is inflammation of the covering of the brain (meninges). This causes weakness of one side of the body. Please take him to a pediatrician at the earliest. The doctor will examine your baby and advise blood tests, including examination of CSF (cerebrospinal fluid). Treatment with antibi",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 1,
+      "question": "A 2-year-old boy is brought to the physician because of decreased appetite and abdominal pain for the last several weeks. Physical examination shows a well-appearing toddler with a palpable left-sided abdominal mass that does not cross the midline. A CT of the abdomen shows a large, necrotic tumor o",
+      "response": "Hello, I have gone through your query. Thanks for using Chat Doctor. The mass in kidney is mostly Wilms tumor. It is derived from metanephric blastema which is also responsible for formation of renal pelvis and ureter. So it is derived from the same embryological structure. You can discuss with your doctor on this. Hope I answered your question. Best wishes.",
+      "scores": {
+        "Accuracy": 5,
+        "Completeness": 5,
+        "Safety": 5,
+        "Clarity": 5,
+        "Evidence": 5
+      },
+      "raw_judge_output": "Accuracy: 5\nCompleteness: 5\nSafety: 5\nClarity: 5\nEvidence: 5"
+    },
+    {
+      "index": 2,
+      "question": "A 14-year-old boy is brought to the physician because of an increasing difficulty in hearing over the past several months. His mother says they have to speak at a higher volume for him to understand them. He also complains of having difficulty reading his favorite books because he is not able to see",
+      "response": "The answer is B) Autosomal dominant mutation in COL6A1 gene. Autosomal dominant mutations in COL6A1 gene cause a condition known as autosomal dominant congenital cataract with anterior lenticonus. It is characterized by lens opacity and anterior displacement of the lens capsule. It can also present with sensorineural hearing loss. The hearing loss occurs due to degeneration of the spiral ganglion cells and cochlear nerve. This patient's parents had a similar presentation with renal transplantati",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 5,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 5\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 3,
+      "question": "A 16-year-old female presents to her primary care physician due to lack of menstruation. She has never had a period and is anxious that she is not “keeping up” with her friends. She states that her breasts began developing when she was 13, and she had a growth spurt around the same time. Review of s",
+      "response": "Hi, I have gone through your query and understand your concern. The investigations suggest that you are having primary amenorrhea. This is a condition where the girl child has not got her first menstrual cycle by the age of 16 years. It could be due to some hormonal imbalance or congenital anomalies in the genital tract. The ultrasound scan of the pelvis is normal. So we need to look for any other cause. Your serum FSH level is high. This suggests that there is a problem with your pituitary glan",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 4,
+      "question": "A 35-year-old man presents to the emergency room due to shortness of breath that started an hour ago while playing football with some friends. He has had similar episodes in the past when he also had to be rushed to the hospital. Physical examination shows body temperature is 37.2°C (98.9°F), pulse ",
+      "response": "The answer is B) Chronic bronchitis. The patient most likely suffers from chronic obstructive pulmonary disease (COPD). In COPD, the walls of the airways become inflamed and thickened, making them narrow and hard to breathe through. This inflammation causes a constant state of hyperinflation of the lungs. When the patient plays football, his respiratory muscles have to work harder than usual. This increased work leads to an increase in the production of inflammatory mediators and a further narro",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 5,
+      "question": "A 48-year-old homeless male is brought to the emergency department, by the police, for altered mental status. Past medical records are unavailable. A physical exam on admission reveals scleral icterus and a flapping tremor of the wrists during extension. The patient is admitted to the hospital and h",
+      "response": "Hi, thank you for posting your query. I have noted your symptoms and history. Based on the information provided, the diagnosis seems to be hepatic encephalopathy. This is a condition seen in liver failure. It causes confusion and altered behavior. The diarrhea and flatulence could be due to bacterial overgrowth in the gut. You need to continue treatment for this. In addition, you will require treatment for liver failure as well. This may include medicines such as lactulose, and sometimes blood t",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 6,
+      "question": "A 61-year-old man presents to his primary care provider complaining of abdominal pain and constipation. He reports a 4-day history of steady right lower quadrant pain. He has had one small bowel movement in 4 days. Normally he has a bowel movement once a day. His medical history is notable for poorl",
+      "response": "The answer is A) Crohn's disease. The patient is most likely suffering from Crohn's disease. This diagnosis is supported by his medical history, symptoms, and physical exam findings. While the patient does have a history of colon polyps and diverticula, his symptoms and exam findings are more consistent with Crohn's disease than any other diagnosis. The other options can be ruled out through careful clinical correlation.",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 5,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 5\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 7,
+      "question": "A 67-year-old man is brought to the emergency department with sudden onset of slurred speech. The patient’s eldest daughter says that he couldn’t move his arm during the episode. Past medical history is significant for hypertension and a hemorrhagic stroke 6 years ago, which was treated surgically. ",
+      "response": "Hello, I understand your concern. I am Chat Doctor, a certified genetic counselor. I will help you with your query. It is very difficult situation. But in this case, you have no other option but to get the surgery done. You can get the surgery done if the patient is in a persistent vegetative state and has been in that state for more than six months. This is known as permanent vegetative state. In such a case, the decision can be taken by the patient's close relatives. If the patient is not in p",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 8,
+      "question": "A 50-year-old man with congestive heart failure (CHF) was started on an experimental analog of atrial natriuretic peptide. Which of the following would he expect to experience?",
+      "response": "Hello! Thank you for asking on Chat Doctor! Regarding your concern, I would explain that this experimental drug is very similar to ANP. It has the same mechanism of action and therefore it will probably have the same side effects. The most frequent side effects are nausea, vomiting, diarrhea, cramps, abdominal pain and headache. Some patients also report dizziness and fatigue. There are no serious side effects. But I would like to know more about his clinical status. If he has severe CHF, then h",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 9,
+      "question": "A 56-year-old man is brought to the emergency room after a motor vehicle accident. The patient’s vitals are as follows: blood pressure 80/40 mm Hg, heart rate 111/min, respiratory rate 39/min, and temperature 37.1°C (98.8℉). On physical examination, the patient is unconscious with a GCS of 9/15 and ",
+      "response": "Hello, I have gone through your query and understand your concern. In such critical situations, it is important that the doctors take a decision without delay. As the patient is unconscious, it would be difficult to get his consent. So, in this case, the doctor can proceed with the treatment. The patient's next of kin can be informed later and can be asked to give consent. Please do not hesitate to ask in case you have any doubts or further queries. Thank you.",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 2,
+        "Safety": 3,
+        "Clarity": 4,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 2\nSafety: 3\nClarity: 4\nEvidence: 2"
+    },
+    {
+      "index": 10,
+      "question": "A group of researchers wants to evaluate how often the human immunodeficiency virus (HIV) is related to high-risk behaviors in female sex workers from their country. An additional aim is to evaluate the association between HIV acquisition and certain sociodemographic factors. The researchers collect",
+      "response": "The answer is A) HIV infection rate among female sex workers.",
+      "scores": {
+        "Accuracy": 5,
+        "Completeness": 5,
+        "Safety": 5,
+        "Clarity": 5,
+        "Evidence": 5
+      },
+      "raw_judge_output": "Accuracy: 5\nCompleteness: 5\nSafety: 5\nClarity: 5\nEvidence: 5"
+    },
+    {
+      "index": 11,
+      "question": "A 53-year-old man comes to the physician because of a 2-month history of multiple episodes of small amounts of blood in his stools. Examination shows pale conjunctivae. His hemoglobin concentration is 8.3 g/dL and mean corpuscular volume is 72μm3. Colonoscopy shows a 2.3-cm polypoid mass in the asce",
+      "response": "Hi, dairy have gone through your question. I can understand your concern. You may have some bleeding from polyp in colon. It causes anemia. You should go for colonoscopy and biopsy. Then you should take treatment accordingly. Hope I have answered your question, if you have doubt then I will be happy to answer. Thanks for using Chat Doctor. Wish you a very good health.",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 12,
+      "question": "A 68-year-old female presents to her primary care physician with a 7-month history of fatigue and low back pain. Her pain is not improved by over the counter analgesics. Laboratory analysis is notable for a calcium level of 11.5 mg/dL, creatinine level of 2.0 mg/dL, and blood urea nitrogen level of ",
+      "response": "Hematuria is not expected to be seen in eosinophilic granulomatosis with polyangiitis (EGPA). The other options can all be seen.",
+      "scores": {
+        "Accuracy": 1,
+        "Completeness": 1,
+        "Safety": 1,
+        "Clarity": 1,
+        "Evidence": 1
+      },
+      "raw_judge_output": "Accuracy: 1\nCompleteness: 1\nSafety: 1\nClarity: 1\nEvidence: 1"
+    },
+    {
+      "index": 13,
+      "question": "A 95-year-old woman who is a resident at a long term care facility, got up from her chair, tripped on a rug, and fell on her right knee. She could not get up without assistance and complained of severe pain in her right hip and buttock. The nurse who evaluated her tried to stand her up, but when the",
+      "response": "Hi, thank you for providing the brief history of the patient. As per the details given, it seems like the patient has a urinary tract infection leading to confusion. Due to the UTI, the patient is experiencing urinary retention. This causes an increase in the bladder pressure which in turn leads to bladder distention. This bladder distention causes compression of the nerves and hence the confusion. Please note that all these are my opinions based on the limited information provided by you. I wou",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 14,
+      "question": "A 26-year-old woman comes to the clinic for an annual wellness examination. She is healthy with no prior history of significant illness. She exercises 3-4 times a week and eats a plant-based diet with no carbonated drinks. When asked if anything is bothering her, she reports that she has been having",
+      "response": "Hi, Welcome to Chat Doctor, Sneezing, congestion, and itchy eyes are all due to the allergic reaction. You should be given antihistamine like levocetrizine, fexofenadine, cetirizine etc., as you are having chronic symptoms, I suggest you to undergo skin prick test for identification of allergen. The symptoms can be controlled by taking antihistamines, but the allergen should be identified and avoided. Thank you.",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 15,
+      "question": "A 27-year-old woman was referred to a dermatology clinic due to a changing discoloration of her fingers from white to red to blue. Although she has not had any recent changes in her daily routines, she also complains of increasing fatigue, muscle weakness, and weight loss. She has a blood pressure o",
+      "response": "Hi, I think you should go for ANA test and anti Scleroderma antibodies test. You may have SLE. So do the biopsy. It will be more helpful. Take care. Hope I have answered your query. Let me know if I can assist you further.",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 16,
+      "question": "A 32-year-old woman presents to the physician because she feels depressed, has difficulty sleeping, has a poor appetite, and has had a problem concentrating for the past 3 months. During this time, she has also has had low energy and has lost interest in playing the guitar. During high school, the p",
+      "response": "Hello! Thank you for asking on Chat Doctor! I understand your concern and would explain that these symptoms could be related to bipolar disorder. This is a chronic illness characterized by recurrent depressive and manic episodes. The depressive episodes are similar to the ones you describe (depression, sleep disturbances, loss of appetite, etc.). In addition, the manic episodes are characterized by an abnormally elevated mood, grandiosity, racing thoughts, pressured speech, distractibility, incr",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 17,
+      "question": "A 52-year-old man comes to the physician for an annual physical examination. He reports that his vision has progressively improved over the past 6 months and he no longer needs the glasses he used while driving. He has hypertension and type 2 diabetes mellitus. Current medications include glyburide,",
+      "response": "Hi, thank you for posting your query. I understand your concern. Diabetes can affect the retina. As the blood sugar levels increase, the blood vessels in the retina get damaged, leading to diabetic retinopathy. In early stages, there may not be any symptoms. Over time, there will be blurring of vision. In later stages, there may be bleeding in the eye, leading to loss of vision. Since your vision has improved, it suggests that your diabetes is well controlled. You should continue the same diabet",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 2,
+        "Safety": 3,
+        "Clarity": 4,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 2\nSafety: 3\nClarity: 4\nEvidence: 2"
+    },
+    {
+      "index": 18,
+      "question": "A 21-year-old woman presents to the emergency room with right arm pain and limited range of motion. She does not recall trauma to the arm. She also complains of diarrhea and nausea. She is sexually active with one male partner and admits to having pain during intercourse. There is vague and diffuse ",
+      "response": "Hi! Good evening. I am Chat Doctor answering your query. You could be having a urinary tract infection. The diarrhea and nausea can be due to a gastrointestinal infection. Since you have got these problems for quite some time, I would advise you to get your routine urine examination and a stool culture done to find out the cause of your problem. Till then, you can go ahead with a course of antibiotics like Definite or Tab. Levofloxacin under your doctors' guidance. I hope your problem is solved ",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 2,
+        "Safety": 3,
+        "Clarity": 4,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 2\nSafety: 3\nClarity: 4\nEvidence: 2"
+    },
+    {
+      "index": 19,
+      "question": "A 22-year-old man presents to a psychiatrist complaining of mood fluctuations. He is accompanied by his mother who reports that the patient recently experienced a 5-day episode of minimal sleep and unusual levels of energy. The patient admits to spending $2,000 of his parent’s money, without asking,",
+      "response": "Hello! Thank you for posting here. Based on the information provided, it seems that the patient is experiencing symptoms of depression. However, the question asks which of the following is the most likely diagnosis in this patient. I believe there is a typo in the question. I think you meant to ask which of the following is the most likely cause of the patient's symptoms. If so, the answer would be meningitis. Meningitis can lead to a psychiatric disorder called post-infectious psychosis, which ",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 20,
+      "question": "A 32-year-old woman comes to the emergency department because a 5-week history of abdominal pain and bloody diarrhea that has worsened in the past 24 hours. She was diagnosed with ulcerative colitis 1 year ago but has had difficulty complying with her drug regimen. Her temperature is 38.2°C (100.8°F",
+      "response": "Hi. Thanks for your query. I understand your concerns. Your symptoms are suggestive of acute colitis. This can be due to infection or inflammation of the colon. It could also be due to ischemia or blockage of the colon. The treatment is as follows",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 21,
+      "question": "A 55-year-old man recovering from knee replacement surgery complains of breathlessness in the postoperative ward. He has been confined to bed for the past 5 days and is under observation. He felt a sudden difficulty in breathing and called for the ward nurse. He says that he is unable to take deep b",
+      "response": "Hello dear, thanks for your question on Chat Doctor. I can understand your concern. In my opinion you should consult pulmonologist and get done1. Chest x ray2. Pulmonary function test (PFT)3. CT thorax. Chest x-ray is needed to rule out pneumonia or lung infection. PFT will tell us about severity of the disease and treatment is based on severity only. CT thorax is needed to look for any mass lesion or lung infection. So consult pulmonologist and discuss all these investigations. Hope I have solv",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 22,
+      "question": "A 62-year-old man is brought to his primary care physician by his wife who is concerned about the patient's frequent falls. Approximately 6 months ago, she started noticing that he was walking more slowly than usual. He has fallen more than 6 times in the past month, and she is worried that he will ",
+      "response": "Based on the clinical presentation and family history, this patient most likely has normal pressure hydrocephalus (NPH). NPH is characterized by gait disturbances, urinary incontinence, and cognitive impairment. It is caused by obstruction of cerebrospinal fluid (CSF) flow at the level of the aqueduct of Sylvius or third ventricle. On MRI, NPH is characterized by ventricular enlargement and a normal-appearing brain parenchyma. Histologically, there is no specific finding that is characteristic o",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 4,
+        "Clarity": 4,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 4\nClarity: 4\nEvidence: 3"
+    },
+    {
+      "index": 23,
+      "question": "A 16-month-old boy is brought to the physician by his mother for a regular check-up. His mother says that he has not yet begun to walk. He is exclusively breastfed. He is at the 20th percentile for length, 10th percentile for weight, and 50th percentile for head circumference. Physical examination s",
+      "response": "Based on the clinical presentation and physical examination findings, it seems that the patient has vitamin D deficiency rickets. Vitamin D deficiency rickets is characterized by impaired mineralization of bone and cartilage, leading to bone deformities. The patient's symptoms are also consistent with the diagnosis of vitamin D deficiency rickets. The patient's mother should be counseled regarding the importance of vitamin D supplementation and the need to ensure adequate sunlight exposure. A pr",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 5,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 5\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 24,
+      "question": "A 55-year-old man is brought to the emergency department with altered mental status. The patient is in acute distress and cannot provide history due to disorientation. Temperature is 38.7°C (101.6°F), blood pressure is 80/50 mm Hg, pulse is 103/min, respiratory rate is 22/min, and BMI is 20 kg/m2. O",
+      "response": "Hi, thanks for contacting Chat Doctor. I understand your concern. Your patient has jaundice and elevated liver enzymes, so it is suggestive of hepatic disease. He has also hypotension, fever, abdominal pain and altered sensorium. All these are suggestive of sepsis. The cause of this sepsis can be biliary infection. The ultrasound shows dilated common bile duct. So this should be confirmed by endoscopic ultrasound. It will help you to know the exact site of obstruction and also guide you for perc",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 25,
+      "question": "A 31-year-old woman comes to the physician because of a 5-month history of intermittent flank pain. Over the past 2 years, she has had five urinary tract infections. Her blood pressure is 150/88 mm Hg. Physical examination shows bilateral, nontender upper abdominal masses. Serum studies show a urea ",
+      "response": "Hi, Thanks for writing in. The flank pain in this patient can be due to many causes. It could be related to the urinary tract infection. However, the urine culture report is not given, and so it is difficult to comment on infection. The renal ultrasound scan has shown that both kidneys are enlarged and have multiple anechoic masses. This could be due to many causes. One of the commonest cause is infection of the kidneys and bladder. There is no mention of infection. The anechoic masses could be ",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 26,
+      "question": "A 39-year-old African-American woman presents to the emergency room with hip pain. She has a past medical history significant for sarcoidosis which was recently diagnosed 6 months ago and is currently being treated. She reports that the pain started 2 weeks ago and is localized to the left hip and g",
+      "response": "Hi, Thank you for posting your query. I have noted your symptoms and history. As per your description, there could be two possibilities for your hip pain. One is due to hip joint infection or inflammation, the other is due to compression of nerve supplying hip and groin region. Both these conditions can occur as a complication of sarcoidosis. You need an MRI scan of hip to confirm the diagnosis. In addition, you may require anti-inflammatory medicines such as prednisolone. I hope my answer helps",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 2,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 2\nSafety: 3\nClarity: 3\nEvidence: 2"
+    },
+    {
+      "index": 27,
+      "question": "A 22-year-old man from Nepal presents to the emergency department complaining of swelling and pain in his right testicle. The patient states that he just arrived in the United States to live with his wife, with whom he is monogamous. The patient denies painful urination or urethral discharge, but ad",
+      "response": "Hello, Thanks for writing to Chat Doctor. Your symptoms are suggestive of an infection of the testis. This may be due to spread of infection from the skin infection on the face. You should do blood tests, ultrasound abdomen and scrotal examination. If there is infection then you will require antibiotics. Antibiotics are given for 7 to 10 days. If the testis is very large then surgery is required. Please consult your doctor and get examined. Hope this helps you. Thanks.",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 28,
+      "question": "A 27-year-old woman, gravida 2, para 1, at 40 weeks' gestation is admitted to the hospital in active labor. The patient reports severe pelvic pain. Pregnancy has been complicated by gestational diabetes. Pregnancy and delivery of her first child were uncomplicated. Current medications include insuli",
+      "response": "Hello, Thanks for writing to Chat Doctor, I understand your concern. I will try to help you with this. The most common cause of low blood pressure after epidural anesthesia is due to the effect of epidural analgesia. It can be secondary to vasodilatory effects of epidural anesthesia, or due to reduced venous return due to relaxation of muscles of the abdomen. You need to take oral fluids in adequate amounts to maintain your blood pressure. You should also avoid taking excessive analgesics like p",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 3,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 3\nSafety: 4\nClarity: 5\nEvidence: 3"
+    },
+    {
+      "index": 29,
+      "question": "A 57-year-old woman is brought to the emergency department by ambulance for dysarthria and left-sided facial droop. She is accompanied by her son, who states that the patient had just returned home an hour ago from walking the dog when suddenly the patient stated she felt “strange.” When her son ask",
+      "response": "Hello, I understand your concern and will explain you the options available. If this is a stroke, then there is no treatment possible. It's only supportive treatment like oxygen therapy, fluid intake, diuretics if edema is present, antiemetics and antispasmodics. The stroke needs to be diagnosed by a CT scan of the brain. If it is due to cerebral hemorrhage, then the treatment is different and it should be done immediately. You need to know that there is no effective treatment for stroke. So, if",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 30,
+      "question": "A 58-year-old male is hospitalized after sustaining multiple fractures in a severe automobile accident. Soon after hospitalization, he develops respiratory distress with crackles present bilaterally on physical examination. The patient does not respond to mechanical ventilation and 100% oxygen and q",
+      "response": "Hi, thank you for providing the brief history of your brother. Since I can see that there is lung tissue damage, I would suggest you to get his chest x-ray done. As it seems that there could be lung contusions as well as pneumothorax. In this case the chest x-ray will help to find out if there is any pneumothorax or pulmonary contusion. As you said that he was given 100% oxygen and mechanical ventilation, still the condition deteriorated. So, please take his chest x-ray first and then take a sec",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 31,
+      "question": "A 6-year-old African American boy is referred to the hospital by his family physician for jaundice, normocytic anemia, and severe bone pain. He has a history of several episodes of mild bone pain in the past treated with over the counter analgesics. On physical examination, the child is icteric with",
+      "response": "Hello, Thanks for the query to Chat Doctor. Forum. Since, this is a 6 years old boy, so my opinion is that this child has thalassemia (hemoglobinopathy). This is very much common in Indian sub continent. You have not mentioned which type of thalassemia, but I can say that he has beta thalassemia. He needs blood transfusion at regular intervals and also he needs iron chelation therapy. So consult pediatrician and get his diagnosis confirmed. Good luck.",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 32,
+      "question": "A 55-year-old man presents to the emergency department with complaints of nausea, vomiting, palpitations, and dizziness, which have lasted for the past 3 hours. He was diagnosed with heart failure 1 year ago. During his last visit to his primary care physician, he was doing well and the lab results ",
+      "response": "The answer is A) Decreased clearance of digoxin due to decreased renal function. Digitalis toxicity occurs when the therapeutic dose of the drug is exceeded, and the patient may develop various symptoms including nausea, vomiting, palpitations, and dizziness. The patient's history of heart failure, regular use of digoxin, and newly added verapamil make him more susceptible to digitalis toxicity. In this case, the patient's serum digoxin level is elevated, and he is experiencing symptoms consiste",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 5,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 5\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 33,
+      "question": "A 36-year-old man is brought to the emergency department 25 minutes after being involved in a high speed motor-vehicle collision in which he was an unrestrained passenger. He has acute myeloid leukemia and is currently receiving chemotherapy. On arrival, his temperature is 37°C (98.6°F), pulse is 63",
+      "response": "Hello, As you had a road traffic accident, you need to be taken up for investigations like X-ray of the chest, X-ray of the whole body, CT scan of the head and abdomen, USG of the abdomen. Also, an orthopedic opinion is required. You might need surgery depending upon the findings. Please take him to the ER at the earliest. Hope I have answered your query. Let me know if I can assist you further.",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 34,
+      "question": "A 51-year-old woman was recently diagnosed with type II diabetes. Due to the cumulative effects of diabetes, various health screenings and vaccinations are routinely recommended. Which of the following vaccinations or screening measures are recommended in patients with diabetes?",
+      "response": "Hi, Thanks for asking the query, I have gone through your question and understand your concerns. In diabetics, the immune system is compromised due to high blood sugar levels and diabetic neuropathy. So, routine vaccination is advisable. Vaccination against pneumococcus and influenza are advised as these diseases can cause life-threatening complications in diabetics. You should also get vaccinated against Hepatitis A and B, as diabetes predisposes you to liver infections. You should also get a s",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 35,
+      "question": "A 23-year-old man presents with sudden loss of consciousness while pitching in a baseball game. There is no history of injury. Consciousness is regained after cardiopulmonary resuscitation. Past medical history is negative for any neurological and cardiovascular problems. Physical examination reveal",
+      "response": "Thanks for your question on Chat Doctor. I can understand your concern. In my opinion, we should first rule out arrhythmias (rhythm disturbances) because arrhythmias are common cause for syncope or loss of consciousness. So get done 2d echo and Holder monitoring (24 hour continuous ECG monitoring). If both these are normal then no need to worry much. Sometimes stress and anxiety can also cause similar symptoms. So avoid stress and tension, be relaxed and calm. Hope I have solved your query. I wi",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 36,
+      "question": "A 39-year-old man is brought to the emergency department unconscious following 2 episodes of generalized tonic-clonic seizures. According to the attendants, he has complained of recurrent headaches for the past 2 weeks. There is no history of fever, head trauma, or a seizure disorder. The patient do",
+      "response": "Thanks for your query, I have gone through your query. The symptoms and MRI findings suggest you are having a primary central nervous system lymphoma. You should consult a neurologist or an oncologist and get evaluated and start the treatment. It could be treated with radiotherapy and chemotherapy. Do not worry, it can be controlled. I hope my answer will help you, take care.",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 37,
+      "question": "A 22-year-old woman from a rural area who recently discovered she was pregnant is referred for a cardiology consultation due to cyanosis, dyspnea, and a cardiac murmur revealed at the initial prenatal visit. She is gravida 1, para 0 with an estimated gestational age of 19 weeks. She says that the mu",
+      "response": "Hello, Your question seems to be related to congenital heart disease. If there is a fixed splitting of second sound then it means that there is a defect in the ventricular septum (hole in the wall between the two ventricles). This hole can be small or large depending upon the size of the hole. As the pregnancy progresses the volume of the blood circulating through the heart increases. The increase in the blood flow causes a greater load on the heart. If the defect is large enough then the increa",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 38,
+      "question": "A 25-year-old man with a past medical history of constipation and fibromyalgia presents to the emergency department with generalized malaise and severe diarrhea. The patient states that he has not felt well for the past 24 hours and his symptoms are no longer tolerable. He denies taking any medicati",
+      "response": "Hello, Thank you for asking question on Chat Doctor. I can understand your concern. As per your query, your brother has symptoms of severe diarrhea and malaise. It could be due to infection in intestines. He should go for routine stool examination to find out exact cause of diarrhea. You should also consult gastroenterologist for proper examination and treatment. He might require antibiotics, anti-diarrheal and other supportive therapy like oral rehydration therapy. You should give him plenty of",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 39,
+      "question": "A 45-year-old woman presents to the clinic with her husband to discuss her most recent problem. She and her husband recently bought a new house in the area. While cleaning the house, they discovered a nest of spiders. She reports blacking out and waking up outside the house with a bandage on her arm",
+      "response": "Hi, I understand your concern. Your wife had a phobia due to spiders. She has been suffering from it for long time. It can be treated by cognitive behavior therapy and exposure therapy. Cognitive behavior therapy helps you to change your perception of spiders. She may have developed a negative association with spiders which needs to be changed. Exposure therapy will help you to confront your fears. If you want to try medication then SSRI like paroxetine can be started. Hope I answered your quest",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 40,
+      "question": "A 67-year-old man is brought to the physician because of increasing forgetfulness, unsteadiness, and falls over the past year. He reports that these symptoms seem to worsen with each fall. Initially, he could not remember directions to his home but now cannot remember recent conversations or appoint",
+      "response": "Hello, Thanks for writing to us, I have gone through your query and understand your concern. Based on the facts of your query, you seem to suffer from progressive dementia. This condition is usually caused by brain degenerative diseases like Alzheimer's disease. Your doctor should start treatment for this condition. There are Chat Doctor.  You should also take care of yourself and avoid stress and anxiety. Take healthy diet rich in fruits, vegetables, fish, lean meat, etc. Exercise regularly. Yo",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 2,
+        "Safety": 3,
+        "Clarity": 4,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 2\nSafety: 3\nClarity: 4\nEvidence: 2"
+    },
+    {
+      "index": 41,
+      "question": "A 28-year-old primigravid woman at 39 weeks gestation is admitted to the hospital in active labor. On examination, the cervix is 100% effaced and 10 cm dilated. After 5 minutes of pushing, there is a prolonged deceleration of the fetal heart rate to 90/min. A decision to perform an episiotomy is mad",
+      "response": "The sacral plexus is formed from the ventral rami of S1-S4 spinal nerves. It gives rise to the pudendal nerve. The pudendal nerve provides motor innervation to the external anal sphincter, the levator ani muscle, the perineal muscles, and the bulbocavernosus muscle. It provides sensory innervation to the skin over the perineum, the external anal sphincter, and the external urethral sphincter. Therefore, the correct answer is B: Bulbocavernosus muscle.",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 5,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 5\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 42,
+      "question": "A 55-year-old woman with a history of HIV presents to the emergency department with progressive dyspnea, fever, and dry cough for the past 4 days. She has not been compliant with antiretroviral or prophylactic medication. On evaluation, the patient is in moderate respiratory distress. The temperatur",
+      "response": "Hi, Thanks for writing in. It seems that you are asking about the management of a patient with pneumonia. The patient is having severe respiratory distress and has an abnormal chest x-ray. If there is pneumothorax then it must be ruled out by doing a chest x-ray. If the chest x-ray is normal then the possibility of pneumonia has to be ruled out by doing a CT scan of the chest. There are no other options at this stage. Please do not worry.",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 43,
+      "question": "A 22-year-old woman with polycystic ovarian syndrome comes to the emergency department because of a 1-day history of left lower abdominal pain that began suddenly while she was running. Her last menstrual period was 2 weeks ago. Physical examination shows tenderness to palpation over the left adnexa",
+      "response": "Hi, thank you for providing the brief description of your health concern. A thorough understanding of the problem helps in arriving at a sensible solution. I have understood your health concern and I will suggest the best possible solution for you. - As per the clinical details provided by you, I feel that you might be having a complication of PCOS. You need to get a detailed evaluation done to rule out any other cause for the pain. I will suggest you to go ahead and get the USG abdomen and pelv",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 44,
+      "question": "A 47-year-old woman comes to the physician for a follow-up examination. She has noticed trembling of her hands for the past 5 months. These movements are only present when she reaches to pick up an object or answer the phone. She has a history of major depressive disorder but has been off medication",
+      "response": "Hello, I have studied your case with diligence. As per your history it seems to be Parkinsonian symptoms. In Parkinson disease there is tremors, rigidity, bradykinesia and postural instability. Medication can improve tremors. Physiotherapy can improve rigidity and gait problems. You need MRI brain and other investigations. You may require medication like Sinemet. Hope this answers your query. If you have additional questions or follow-up queries then please do not hesitate in writing to us. I wi",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 2,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 2\nSafety: 3\nClarity: 3\nEvidence: 2"
+    },
+    {
+      "index": 45,
+      "question": "A 52-year-old man comes to the physician because of generalized pruritus and raised, erythematous plaques on the skin over his hands, chest, and legs for 6 hours. He reports having clear liquid discharge from his nose and sneezing. He says that his symptoms began suddenly the previous night, 30 minu",
+      "response": "Hello dear, The history and symptoms you mention in the post seems to be allergic reaction to food. It can be due to seafood which you have consumed. I would suggest you to avoid such foods. You need to take montelukast tablet once daily for 15 days. This will prevent the allergic manifestations. Also, antihistamines like cetirizine 10\\u00a0mg can be taken thrice daily for 3 days. If you have nasal polyps then you need to consult ENT specialist and go for endoscopic examination of nasal cavity. ",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    },
+    {
+      "index": 46,
+      "question": "A 19-year-old man in a 3-month relationship with a woman experiences frequent sexual fantasies about male coworkers. He lives in a conservative community and does not know any openly gay men. Two days ago, he joined a local group considered by many organizations to be a hate group. Together with the",
+      "response": "Degree understand your concerns went through your details. I suggest you not to worry much. The answer is that he is demonstrating \\\"rationalization\\\". This is a common defense mechanism used by individuals to justify their actions. Rationalization is the process of explaining or justifying a behavior or belief in a logical or reasonable way, even when this explanation is not accurate. In this case, he rationalized his actions by saying that he was acting out of a hate group. That is not true. H",
+      "scores": {
+        "Accuracy": 2,
+        "Completeness": 2,
+        "Safety": 2,
+        "Clarity": 2,
+        "Evidence": 2
+      },
+      "raw_judge_output": "Accuracy: 2\nCompleteness: 2\nSafety: 2\nClarity: 2\nEvidence: 2"
+    },
+    {
+      "index": 47,
+      "question": "A 66-year-old woman presents to her primary care provider with several days of left flank pain radiating to the abdomen and groin. The patient states that she has noticed a pink tinge to her urine as well. Of note, she has not had any fevers, but endorses several months of fatigue and constipation. ",
+      "response": "Hello and welcome to Chat Doctor. As a Urologist, I can understand your anxiety. Your symptoms are due to calcium stones, which are mostly caused by hyperparathyroidism. Your PTH level should be checked. It's a hormonal disorder, so treatment is by medication. You should also get your serum calcium levels, BUN, creatinine and urine routine done. If you've any doubts, send the reports here, for expert opinion. Chat Doctor.  Manga.",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 4,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 4\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 48,
+      "question": "A 23-year-old woman presents to her psychiatrist concerned about her mood. She has felt tired and unwilling to engage in any activities lately. She states that her limbs feel heavy all the time and that completing any activity takes tremendous effort. She no longer finds any happiness in activities ",
+      "response": "Hello, I have gone through your query and understand your concern. It seems that you are being treated with antidepressants. There are two possibilities of no improvement in symptoms. One is that you are not taking the medicines properly. You should take the Chat Doctor.  This may take few weeks before the full effect is seen. Second possibility is that you may have a bipolar disorder. If you are having hypomanic episodes (elevated mood, irritability, racing thoughts, impulsiveness, etc.) then y",
+      "scores": {
+        "Accuracy": 4,
+        "Completeness": 3,
+        "Safety": 4,
+        "Clarity": 5,
+        "Evidence": 4
+      },
+      "raw_judge_output": "Accuracy: 4\nCompleteness: 3\nSafety: 4\nClarity: 5\nEvidence: 4"
+    },
+    {
+      "index": 49,
+      "question": "A 16-year-old patient presents to the physician’s office with an absence of menstruations. Her last period was 6 months ago. Since almost a year and a half ago, she intentionally restricted her diet at the expense of carbohydrates, exercised intensively, and lost 18.0 kg (39.7 lb). She had her menar",
+      "response": "The patient has a primary amenorrhea as she has never experienced her first menses. It could be related to hypothalamic dysfunction, which is often observed in patients with low body weight. The other possible cause is hyperprolactinemia. However, there is no evidence for hyperprolactinemia in this patient. The most likely cause of her primary amenorrhea is hypothalamic dysfunction due to her extreme weight loss. Therefore, the correct answer is B: Amenorrhea is caused by hypothalamic dysfunctio",
+      "scores": {
+        "Accuracy": 3,
+        "Completeness": 3,
+        "Safety": 3,
+        "Clarity": 3,
+        "Evidence": 3
+      },
+      "raw_judge_output": "Accuracy: 3\nCompleteness: 3\nSafety: 3\nClarity: 3\nEvidence: 3"
+    }
+  ]
+}
