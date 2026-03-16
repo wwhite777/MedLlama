@@ -1,0 +1,524 @@
+{
+  "eval_type": "rag_retrieval",
+  "timestamp": "2026-03-14T10:31:20.781322",
+  "num_queries": 50,
+  "top_k": 5,
+  "metrics": {
+    "recall_at_5": 1.0,
+    "relevant_queries": 50,
+    "avg_retrieval_time_ms": 204.0,
+    "median_retrieval_time_ms": 198.28,
+    "min_retrieval_time_ms": 166.53,
+    "max_retrieval_time_ms": 599.24
+  },
+  "contribution_analysis": {
+    "avg_dense_results": 20.0,
+    "avg_bm25_results": 0.0,
+    "both_contributed": 0,
+    "dense_only": 50,
+    "bm25_only": 0,
+    "neither": 0
+  },
+  "per_query_results": [
+    {
+      "index": 0,
+      "query": "A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. Th",
+      "retrieval_time_ms": 599.24,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "The acutely injured knee.. Acute knee pain is a common complaint among patients presenting to outpatient clinics. Although most injuries are minor and"
+    },
+    {
+      "index": 1,
+      "query": "A 67-year-old man with transitional cell carcinoma of the bladder comes to the physician because of a 2-day history of ringing sensation in his ear. He received this first course of neoadjuvant chemot",
+      "retrieval_time_ms": 185.7,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "A case of Meniere's disease in the left ear and Lermoyez syndrome in the right ear--a 32-month longitudinal observation and literature review.. We her"
+    },
+    {
+      "index": 2,
+      "query": "Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus an",
+      "retrieval_time_ms": 217.71,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Idiopathic hypereosinophilic syndrome in hemodialysis patients: Case reports.. RATIONALE: Herein, we report 3 hemodialysis patients with idiopathic hy"
+    },
+    {
+      "index": 3,
+      "query": "A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1°C (102.3°F), pulse is 126/min, respirations are 28/min, and ",
+      "retrieval_time_ms": 197.39,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Diagnosis: Pulmonary Hypertension. Next Steps.. Pulmonary hypertension (PH) is a disease that is generally first encountered by primary care physician"
+    },
+    {
+      "index": 4,
+      "query": "A 35-year-old man comes to the physician because of itchy, watery eyes for the past week. He has also been sneezing multiple times a day during this period. He had a similar episode 1 year ago around ",
+      "retrieval_time_ms": 201.43,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "State of the iron: how to diagnose and efficiently treat iron deficiency anemia in inflammatory bowel disease.. Iron deficiency anemia (IDA) frequentl"
+    },
+    {
+      "index": 5,
+      "query": "A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. ",
+      "retrieval_time_ms": 197.76,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Diagnosis: Pulmonary Hypertension. Next Steps.. Pulmonary hypertension (PH) is a disease that is generally first encountered by primary care physician"
+    },
+    {
+      "index": 6,
+      "query": "A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160/90 mm Hg. Physical examination shows",
+      "retrieval_time_ms": 215.17,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Diagnosing urological disorders in ageing men.. The prevalence of erectile dysfunction (ED) increases with age. ED has organic aetiologies and is asso"
+    },
+    {
+      "index": 7,
+      "query": "A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an al",
+      "retrieval_time_ms": 201.51,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Facilitating optimal care of acute coronary, cerebrovascular and peripheral vascular syndromes in the emergency department: the role of oral antiplate"
+    },
+    {
+      "index": 8,
+      "query": "A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an",
+      "retrieval_time_ms": 204.33,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Oral contraception for women of middle age.. Women at middle age have decreased fertility and their pregnancies are higher risk. Combined oral contrac"
+    },
+    {
+      "index": 9,
+      "query": "A 23-year-old woman comes to the physician because she is embarrassed about the appearance of her nails. She has no history of serious illness and takes no medications. She appears well. A photograph ",
+      "retrieval_time_ms": 202.39,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Onychomycosis in the 21st Century: An Update on Diagnosis, Epidemiology, and Treatment.. Onychomycosis accounts for 50% of all nail disease cases and "
+    },
+    {
+      "index": 10,
+      "query": "A 24-year-old G2P1 woman at 39 weeks’ gestation presents to the emergency department complaining of painful contractions occurring every 10 minutes for the past 2 hours, consistent with latent labor. ",
+      "retrieval_time_ms": 228.47,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Diagnosing PID--getting the balance right.. The objective of the study was to determine the clinical manifestations and diagnostic criteria used to di"
+    },
+    {
+      "index": 11,
+      "query": "A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertio",
+      "retrieval_time_ms": 210.53,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Digitally assessed home FEV(1) to identify the cause of poorly controlled asthma: a protocol paper for a prospective replicate cohort study.. INTRODUC"
+    },
+    {
+      "index": 12,
+      "query": "A 20-year-old man comes to the physician because of worsening gait unsteadiness and bilateral hearing loss for 1 month. He has had intermittent tingling sensations on both cheeks over this time period",
+      "retrieval_time_ms": 198.09,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "A case of Meniere's disease in the left ear and Lermoyez syndrome in the right ear--a 32-month longitudinal observation and literature review.. We her"
+    },
+    {
+      "index": 13,
+      "query": "A 47-year-old executive schedules an appointment his physician for a routine medical check-up. He currently has no complaints and claims to be “as fit as a fiddle.” The physical examination findings a",
+      "retrieval_time_ms": 210.97,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Cardiac pearls.. Most diagnoses of cardiovascular disease are made in the office or at the bedside. For example, in pulsus alternans of the radial pul"
+    },
+    {
+      "index": 14,
+      "query": "A microbiologist is studying the emergence of a virulent strain of the virus. After a detailed study of the virus and its life cycle, he proposes a theory: Initially, a host cell is co-infected with 2",
+      "retrieval_time_ms": 210.65,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Evolution for epidemiologists.. Because humans are biological organisms, human health and disease should be understandable within the context of moder"
+    },
+    {
+      "index": 15,
+      "query": "A 59-year-old overweight woman presents to the urgent care clinic with the complaint of severe abdominal pain for the past 2 hours. She also complains of a dull pain in her back with nausea and vomiti",
+      "retrieval_time_ms": 224.84,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Comprehensive management of immune-related hemolytic anemia in a patient with acute cholangitis: A case report.. ABSTRACTRATIONALE: Immune-associated "
+    },
+    {
+      "index": 16,
+      "query": "A 7-year-old boy is brought to his pediatrician’s office for a follow-up visit. He was diagnosed with asthma when he was 3 years old and has since been on treatment for the condition. He is currently ",
+      "retrieval_time_ms": 206.38,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Variations in the treatment of childhood asthma.. OBJECTIVE: To survey the assessment and management of childhood asthma by paediatricians, general pr"
+    },
+    {
+      "index": 17,
+      "query": "A 3-month-old boy is brought the emergency department by his parents after an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. Diagnostic evaluation fails to discover an exact e",
+      "retrieval_time_ms": 199.93,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Clinical and radiological characteristics of unrecognised foreign body aspiration into respiratory tract in children.. INTRODUCTION: Diagnosing of for"
+    },
+    {
+      "index": 18,
+      "query": "A 29-year-old man presents to the emergency department due to central chest pain over the past 3 days which is constant and unrelated to exertion. The pain is sharp, severe, increases when lying down,",
+      "retrieval_time_ms": 199.36,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Proximal Pulmonary Artery Aneurysm Secondary to Suspected Pulmonary Hypertension Treated with Conservative Therapy in Limited Resource Setting.. BACKG"
+    },
+    {
+      "index": 19,
+      "query": "A 46-year-old man is brought to the emergency department for evaluation of altered mental status. He was found on the floor in front of his apartment. He is somnolent but responsive when aroused. His ",
+      "retrieval_time_ms": 198.28,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Electroencephalographic findings in consecutive emergency department patients with altered mental status: a preliminary report.. Electroencephalograph"
+    },
+    {
+      "index": 20,
+      "query": "A 77-year-old woman presents to the emergency room with the complaints of fever, malaise, and night sweats. She recently observed an enlargement of her axillary lymph nodes, which she examines on a we",
+      "retrieval_time_ms": 200.03,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Unusual cause of adult intussusception: diffuse large B-cell non-Hodgkin's lymphoma: a case report and review.. BACKGROUND: Intussusception is defined"
+    },
+    {
+      "index": 21,
+      "query": "A 3-month-old infant is brought to her pediatrician because she coughs and seems to have difficulty breathing while feeding. In addition, she seems to have less energy compared to other babies and app",
+      "retrieval_time_ms": 208.8,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Congenital esophageal stenosis diagnosed in an infant at 9 month of age.. Esophageal stenosis is a relatively uncommon condition in pediatrics and req"
+    },
+    {
+      "index": 22,
+      "query": "A 30-year-old African American woman comes to the physician for the evaluation of a dry cough and chest discomfort for the past 3 days. During this period, the patient has had headaches, muscle aches,",
+      "retrieval_time_ms": 204.51,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Pulmonary hypertension and chronic mountain sickness.. Chronic mountain sickness is a syndrome of severe symptomatic polycythemia and hypoxemia occurr"
+    },
+    {
+      "index": 23,
+      "query": "A 62-year-old patient has been hospitalized for a week due to a stroke. One week into the hospitalization, he develops a fever and purulent cough. His vitals include: heart rate 88/min, respiratory ra",
+      "retrieval_time_ms": 191.53,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Acute chest syndrome in children with sickle cell disease. A retrospective analysis of 100 hospitalized cases.. We reviewed the clinical features of 1"
+    },
+    {
+      "index": 24,
+      "query": "A 6-year-old boy is brought to the emergency department by his mother for worsening wheezing and shortness of breath over the past day. He has not had a fever, cough, vomiting, or diarrhea. He has ast",
+      "retrieval_time_ms": 166.53,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Paediatric pulmonary drug delivery: considerations in asthma treatment.. Aerosol therapy, the preferred route of administration for glucocorticosteroi"
+    },
+    {
+      "index": 25,
+      "query": "A 5-year-old female suffers from recurrent infections by Aspergillus species, Pseudomonas species, and Staphylococcus aureus. The patient's neutrophils are examined in the laboratory and they fail to ",
+      "retrieval_time_ms": 203.79,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Opsoclonus-ataxia syndrome associated with ovarian mature teratoma.. A 16-year-old girl with no prior medical history developed vertigo and nausea fol"
+    },
+    {
+      "index": 26,
+      "query": "A 3-year-old boy presents to the emergency department with a ‘cough-like-a-seal bark’ and a high-pitched inspiratory noise that is audible without a stethoscope. His mother reports that his cough has ",
+      "retrieval_time_ms": 175.57,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "An 11-year-old boy with pharyngitis and cough: Lemierre syndrome.. The authors present the case of an 11-year-old boy with pharyngitis, treated with a"
+    },
+    {
+      "index": 27,
+      "query": "A 26-year-old woman presents to a gynecologist after a missed period. After performing a complete physical examination and a screening test for pregnancy, her gynecologist informs her that she is preg",
+      "retrieval_time_ms": 187.68,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Genital tuberculosis among infertile women and fertility outcome after antitubercular therapy.. OBJECTIVE: To compare modalities for diagnosing genita"
+    },
+    {
+      "index": 28,
+      "query": "A 4-year-old previously healthy boy presents with 4 days of intermittent vomiting and 5-6 daily loose stools. His mother noted bloody stools and decreased oral intake of food and water over the last 2",
+      "retrieval_time_ms": 210.26,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Gingival bleeding, epistaxis and haematoma three days after gastroenteritis: the haemorrhagic lupus anticoagulant syndrome.. A 3 year and 9 month-old "
+    },
+    {
+      "index": 29,
+      "query": "A 3-week-old male newborn is brought to the physician because of an inward turning of his left forefoot. He was born at 38 weeks' gestation by cesarean section because of breech presentation. The preg",
+      "retrieval_time_ms": 204.63,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Unilateral congenital knee dislocation: effective conservative treatment.. Congenital knee dislocation (CKD) is a rare condition; it occurs when the f"
+    },
+    {
+      "index": 30,
+      "query": "A 42-year-old woman comes to the emergency department because of a 2-day history of right upper abdominal pain and nausea. She is 163 cm (5 ft 4 in) tall and weighs 91 kg (200 lb); her BMI is 34 kg/m2",
+      "retrieval_time_ms": 192.09,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Risk Factors for Delayed Diagnosis of Acute Cholecystitis among Rural Older Patients: A Retrospective Cohort Study.. Background and objectives: Acute "
+    },
+    {
+      "index": 31,
+      "query": "A 72-year-old woman is admitted to the intensive care unit for shortness of breath and palpitations. A cardiac catheterization is performed and measurements of the left ventricular volume and pressure",
+      "retrieval_time_ms": 193.15,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Under Pressure: Right Heart Catheterization and Provocative Testing for Diagnosing Pulmonary Hypertension.. Pulmonary hypertension (PH) is a heterogen"
+    },
+    {
+      "index": 32,
+      "query": "A 22-year-old woman is brought to the emergency department because of a 2-day history of fever, intermittent rigors, and night sweats. She also has a 1-month history of progressive fatigue. Five weeks",
+      "retrieval_time_ms": 186.39,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Fever in pediatric primary care: occurrence, management, and outcomes.. OBJECTIVE: To describe the epidemiology, management, and outcomes of children "
+    },
+    {
+      "index": 33,
+      "query": "An otherwise healthy 50-year-old man comes to the physician because of a 6-month history of increasingly frequent episodes of upper abdominal pain, nausea, vomiting, and diarrhea. He has had a 3.2-kg ",
+      "retrieval_time_ms": 179.57,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Primary epiploic appendagitis as an unusual cause of acute abdominal pain in a middle-aged male: A case report.. RATIONALE: Primary epiploic appendagi"
+    },
+    {
+      "index": 34,
+      "query": "A 27-year-old man presents to the emergency department. He was brought in by staff from the homeless shelter when they found him unresponsive. The patient is a known IV drug abuser but otherwise has a",
+      "retrieval_time_ms": 184.41,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "The diagnosis of postprandial hypoglycemia.. Our observation that hypoglycemia, often self-diagnosed by our patients, was seldom confirmed led the aut"
+    },
+    {
+      "index": 35,
+      "query": "A 67-year-old man who was diagnosed with arthritis 16 years ago presents with right knee swelling and pain. His left knee was swollen a few weeks ago, but now with both joints affected, he has difficu",
+      "retrieval_time_ms": 178.94,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Shoulder, knee, and hip pain as initial symptoms of juvenile ankylosing spondylitis: a case report.. Ankylosing spondylitis is a systemic disease typi"
+    },
+    {
+      "index": 36,
+      "query": "A 65-year-old woman schedules an appointment with her physician for evaluation of weight loss and weakness. The weakness is more noticeable when climbing stairs and combing hair. The weakness improves",
+      "retrieval_time_ms": 182.83,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Consequences of misdiagnosing mitochondrial disorder.. Diagnosing mitochondrial disorder remains a challenge. In a 75-year-old women, with short statu"
+    },
+    {
+      "index": 37,
+      "query": "A 3-month-old boy presents to his pediatrician with persistent diarrhea, oral candidiasis, and signs and symptoms suggestive of respiratory syncytial virus (RSV) pneumonia. His weight is in the 10th p",
+      "retrieval_time_ms": 213.12,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Bronchiolitis: from empiricism to scientific evidence.. Bronchiolitis is the most common viral infection of the lower respiratory tract in infants in "
+    },
+    {
+      "index": 38,
+      "query": "A 53-year-old man with recurrent pancreatic adenocarcinoma is enrolled in a clinical trial for a novel chemotherapeutic agent that his physician believes may be beneficial to his condition. The novel ",
+      "retrieval_time_ms": 185.67,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Pharmacokinetics and pharmacogenomics in gastric cancer chemotherapy.. Despite extensive efforts, treatment of gastric cancer by chemotherapy, the glo"
+    },
+    {
+      "index": 39,
+      "query": "A 67-year-old male is seen by neurology after he was noticed to be speaking strangely by his family. After acute treatment with tissue plasminogen activator (tPA), the patient is able to recover most ",
+      "retrieval_time_ms": 180.69,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Intravenous Tissue Plasminogen Activator in Stroke Mimics.. BACKGROUND: The necessity for rapid evaluation and treatment of acute ischemic stroke with"
+    },
+    {
+      "index": 40,
+      "query": "A 27-year-old woman presents to the office with concerns about her long struggle with her physical appearance since adolescence. She says she has always been \"large\" and was constantly targeted by her",
+      "retrieval_time_ms": 199.13,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Predicting future treatment of diabetes mellitus from characteristics available at presentation.. This study was designed to identify the clinical fea"
+    },
+    {
+      "index": 41,
+      "query": "А 43-уеаr-old mаn рrеѕеntѕ wіth tіnglіng аnd numbnеѕѕ of the lowеr lіmbѕ for 2 wееkѕ. Не also сomрlаіnѕ of реrѕіѕtеnt раіn in his legs whісh is not relieved by over-the-counter analgesics. Past medica",
+      "retrieval_time_ms": 181.97,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Hyperinsulinaemia: the key feature of a cardiovascular and metabolic syndrome.. In a population-based survey of 2,930 subjects, prevalence rates for o"
+    },
+    {
+      "index": 42,
+      "query": "A one-day-old male is evaluated in the hospital nursery for bilious vomiting. The patient has urinated multiple times since birth but has not yet passed meconium. He was born at 38 weeks gestation to ",
+      "retrieval_time_ms": 166.55,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Meconium-stained amniotic fluid. Current controversies.. Meconium-stained amniotic fluid is commonly found in obstetrics: it occurs in 9-20% of delive"
+    },
+    {
+      "index": 43,
+      "query": "A healthy 23-year-old male is undergoing an exercise stress test as part of his physiology class. If blood were to be sampled at different locations before and after the stress test, which area of the",
+      "retrieval_time_ms": 177.07,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Plasma irisin and its associations with oxidative stress in athletes suffering from overtraining syndrome.. Irisin is a novel exercise-induced myokine"
+    },
+    {
+      "index": 44,
+      "query": "A 45-year-old G5P4105 presents to her gynecologist’s office with six months of increasingly heavy periods. She now soaks one super absorbent tampon every two hours for five days each cycle. Her cycles",
+      "retrieval_time_ms": 175.49,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "A psychophysiological evaluation of female urethral syndrome: evidence for a muscular abnormality.. This is a preliminary investigation into a recentl"
+    },
+    {
+      "index": 45,
+      "query": "A man is brought into the emergency department by the police department. The officer state that the man has been arrested multiple times for public alcohol intoxication, but recently became homeless. ",
+      "retrieval_time_ms": 195.62,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "PET and SPECT findings in alcohol hallucinosis: case report and super-brief review of the pathophysiology of this syndrome.. Alcohol hallucinosis is a"
+    },
+    {
+      "index": 46,
+      "query": "A medical research study is evaluating an investigational novel drug (medication 1) compared with standard therapy (medication 2) in patients presenting to the emergency department with myocardial inf",
+      "retrieval_time_ms": 185.5,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Effects of benefits and harms on older persons' willingness to take medication for primary cardiovascular prevention.. BACKGROUND: Quality-assurance i"
+    },
+    {
+      "index": 47,
+      "query": "A 55-year-old man comes to the physician because of a 6-week history of tingling pain in the sole of his right foot when he raises it above chest level during exercises. He reports that he started exe",
+      "retrieval_time_ms": 181.92,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Clustering of coronary risk factors with increasing blood pressure at rest and during exercise.. BACKGROUND: The metabolic cardiovascular syndrome is "
+    },
+    {
+      "index": 48,
+      "query": "A 29-year-old primigravid woman at 35 weeks' gestation is admitted to the hospital in labor. She has no history of serious medical illness. She has had an uncomplicated pregnancy. Her last ultrasound ",
+      "retrieval_time_ms": 180.26,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Subcutaneous emphysema, pneumomediastinum, and pneumothorax in labor and delivery.. Hamman's syndrome occurs rarely in the setting of labor and delive"
+    },
+    {
+      "index": 49,
+      "query": "A 67-year-old man is hospitalized after several days of fever and increasing shortness of breath. Respiratory viral panel returns positive for influenza A and the patient is started on a standard five",
+      "retrieval_time_ms": 216.14,
+      "num_docs_returned": 5,
+      "dense_count": 20,
+      "bm25_count": 0,
+      "relevant": true,
+      "top_doc_preview": "Acute respiratory distress syndrome: underrecognition by clinicians.. BACKGROUND: Previous reports suggest that acute lung injury (ALI)/acute respirat"
+    }
+  ]
+}

@@ -1,0 +1,3224 @@
+{
+  "eval_type": "medqa_accuracy",
+  "timestamp": "2026-03-14T10:38:09.699866",
+  "dataset": "GBaker/MedQA-USMLE-4-options",
+  "num_samples": 200,
+  "total_time_seconds": 44.8,
+  "finetuned": {
+    "model": "/home/wjeong/ml/medllama/checkpoints/merged",
+    "accuracy": 0.655,
+    "correct": 131,
+    "total": 200
+  },
+  "base": {
+    "model": "Qwen/Qwen2.5-7B-Instruct",
+    "accuracy": 0.64,
+    "correct": 128,
+    "total": 200
+  },
+  "improvement": 0.015,
+  "finetuned_details": [
+    {
+      "index": 0,
+      "question": "A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. Th",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 1,
+      "question": "A 67-year-old man with transitional cell carcinoma of the bladder comes to the physician because of a 2-day history of ringing sensation in his ear. He received this first course of neoadjuvant chemot",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 2,
+      "question": "Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus an",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 3,
+      "question": "A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1°C (102.3°F), pulse is 126/min, respirations are 28/min, and ",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 4,
+      "question": "A 35-year-old man comes to the physician because of itchy, watery eyes for the past week. He has also been sneezing multiple times a day during this period. He had a similar episode 1 year ago around ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 5,
+      "question": "A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 6,
+      "question": "A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160/90 mm Hg. Physical examination shows",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 7,
+      "question": "A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an al",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 8,
+      "question": "A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 9,
+      "question": "A 23-year-old woman comes to the physician because she is embarrassed about the appearance of her nails. She has no history of serious illness and takes no medications. She appears well. A photograph ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 10,
+      "question": "A 24-year-old G2P1 woman at 39 weeks’ gestation presents to the emergency department complaining of painful contractions occurring every 10 minutes for the past 2 hours, consistent with latent labor. ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 11,
+      "question": "A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertio",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "question": "A 20-year-old man comes to the physician because of worsening gait unsteadiness and bilateral hearing loss for 1 month. He has had intermittent tingling sensations on both cheeks over this time period",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 13,
+      "question": "A 47-year-old executive schedules an appointment his physician for a routine medical check-up. He currently has no complaints and claims to be “as fit as a fiddle.” The physical examination findings a",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 14,
+      "question": "A microbiologist is studying the emergence of a virulent strain of the virus. After a detailed study of the virus and its life cycle, he proposes a theory: Initially, a host cell is co-infected with 2",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 15,
+      "question": "A 59-year-old overweight woman presents to the urgent care clinic with the complaint of severe abdominal pain for the past 2 hours. She also complains of a dull pain in her back with nausea and vomiti",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 16,
+      "question": "A 7-year-old boy is brought to his pediatrician’s office for a follow-up visit. He was diagnosed with asthma when he was 3 years old and has since been on treatment for the condition. He is currently ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 17,
+      "question": "A 3-month-old boy is brought the emergency department by his parents after an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. Diagnostic evaluation fails to discover an exact e",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "question": "A 29-year-old man presents to the emergency department due to central chest pain over the past 3 days which is constant and unrelated to exertion. The pain is sharp, severe, increases when lying down,",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 19,
+      "question": "A 46-year-old man is brought to the emergency department for evaluation of altered mental status. He was found on the floor in front of his apartment. He is somnolent but responsive when aroused. His ",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 20,
+      "question": "A 77-year-old woman presents to the emergency room with the complaints of fever, malaise, and night sweats. She recently observed an enlargement of her axillary lymph nodes, which she examines on a we",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 21,
+      "question": "A 3-month-old infant is brought to her pediatrician because she coughs and seems to have difficulty breathing while feeding. In addition, she seems to have less energy compared to other babies and app",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 22,
+      "question": "A 30-year-old African American woman comes to the physician for the evaluation of a dry cough and chest discomfort for the past 3 days. During this period, the patient has had headaches, muscle aches,",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "question": "A 62-year-old patient has been hospitalized for a week due to a stroke. One week into the hospitalization, he develops a fever and purulent cough. His vitals include: heart rate 88/min, respiratory ra",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 24,
+      "question": "A 6-year-old boy is brought to the emergency department by his mother for worsening wheezing and shortness of breath over the past day. He has not had a fever, cough, vomiting, or diarrhea. He has ast",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "question": "A 5-year-old female suffers from recurrent infections by Aspergillus species, Pseudomonas species, and Staphylococcus aureus. The patient's neutrophils are examined in the laboratory and they fail to ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "question": "A 3-year-old boy presents to the emergency department with a ‘cough-like-a-seal bark’ and a high-pitched inspiratory noise that is audible without a stethoscope. His mother reports that his cough has ",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 27,
+      "question": "A 26-year-old woman presents to a gynecologist after a missed period. After performing a complete physical examination and a screening test for pregnancy, her gynecologist informs her that she is preg",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "question": "A 4-year-old previously healthy boy presents with 4 days of intermittent vomiting and 5-6 daily loose stools. His mother noted bloody stools and decreased oral intake of food and water over the last 2",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 29,
+      "question": "A 3-week-old male newborn is brought to the physician because of an inward turning of his left forefoot. He was born at 38 weeks' gestation by cesarean section because of breech presentation. The preg",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 30,
+      "question": "A 42-year-old woman comes to the emergency department because of a 2-day history of right upper abdominal pain and nausea. She is 163 cm (5 ft 4 in) tall and weighs 91 kg (200 lb); her BMI is 34 kg/m2",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 31,
+      "question": "A 72-year-old woman is admitted to the intensive care unit for shortness of breath and palpitations. A cardiac catheterization is performed and measurements of the left ventricular volume and pressure",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 32,
+      "question": "A 22-year-old woman is brought to the emergency department because of a 2-day history of fever, intermittent rigors, and night sweats. She also has a 1-month history of progressive fatigue. Five weeks",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 33,
+      "question": "An otherwise healthy 50-year-old man comes to the physician because of a 6-month history of increasingly frequent episodes of upper abdominal pain, nausea, vomiting, and diarrhea. He has had a 3.2-kg ",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 34,
+      "question": "A 27-year-old man presents to the emergency department. He was brought in by staff from the homeless shelter when they found him unresponsive. The patient is a known IV drug abuser but otherwise has a",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 35,
+      "question": "A 67-year-old man who was diagnosed with arthritis 16 years ago presents with right knee swelling and pain. His left knee was swollen a few weeks ago, but now with both joints affected, he has difficu",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 36,
+      "question": "A 65-year-old woman schedules an appointment with her physician for evaluation of weight loss and weakness. The weakness is more noticeable when climbing stairs and combing hair. The weakness improves",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 37,
+      "question": "A 3-month-old boy presents to his pediatrician with persistent diarrhea, oral candidiasis, and signs and symptoms suggestive of respiratory syncytial virus (RSV) pneumonia. His weight is in the 10th p",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 38,
+      "question": "A 53-year-old man with recurrent pancreatic adenocarcinoma is enrolled in a clinical trial for a novel chemotherapeutic agent that his physician believes may be beneficial to his condition. The novel ",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 39,
+      "question": "A 67-year-old male is seen by neurology after he was noticed to be speaking strangely by his family. After acute treatment with tissue plasminogen activator (tPA), the patient is able to recover most ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 40,
+      "question": "A 27-year-old woman presents to the office with concerns about her long struggle with her physical appearance since adolescence. She says she has always been \"large\" and was constantly targeted by her",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 41,
+      "question": "А 43-уеаr-old mаn рrеѕеntѕ wіth tіnglіng аnd numbnеѕѕ of the lowеr lіmbѕ for 2 wееkѕ. Не also сomрlаіnѕ of реrѕіѕtеnt раіn in his legs whісh is not relieved by over-the-counter analgesics. Past medica",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 42,
+      "question": "A one-day-old male is evaluated in the hospital nursery for bilious vomiting. The patient has urinated multiple times since birth but has not yet passed meconium. He was born at 38 weeks gestation to ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 43,
+      "question": "A healthy 23-year-old male is undergoing an exercise stress test as part of his physiology class. If blood were to be sampled at different locations before and after the stress test, which area of the",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 44,
+      "question": "A 45-year-old G5P4105 presents to her gynecologist’s office with six months of increasingly heavy periods. She now soaks one super absorbent tampon every two hours for five days each cycle. Her cycles",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 45,
+      "question": "A man is brought into the emergency department by the police department. The officer state that the man has been arrested multiple times for public alcohol intoxication, but recently became homeless. ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 46,
+      "question": "A medical research study is evaluating an investigational novel drug (medication 1) compared with standard therapy (medication 2) in patients presenting to the emergency department with myocardial inf",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 47,
+      "question": "A 55-year-old man comes to the physician because of a 6-week history of tingling pain in the sole of his right foot when he raises it above chest level during exercises. He reports that he started exe",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 48,
+      "question": "A 29-year-old primigravid woman at 35 weeks' gestation is admitted to the hospital in labor. She has no history of serious medical illness. She has had an uncomplicated pregnancy. Her last ultrasound ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 49,
+      "question": "A 67-year-old man is hospitalized after several days of fever and increasing shortness of breath. Respiratory viral panel returns positive for influenza A and the patient is started on a standard five",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 50,
+      "question": "A 65-year-old male is treated for anal carcinoma with therapy including external beam radiation. How does radiation affect cancer cells?",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 51,
+      "question": "A 56-year-old man with a history of hypertension presents to his physician with progressive fatigue and new onset muscle cramps. He has had no recent changes to his medication regimen, which includes ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 52,
+      "question": "A 65-year-old man comes to the physician because of a 1-week history of yellowish discoloration of his skin and generalized pruritus. Examination shows jaundice of the skin and scleral icterus. Urinal",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 53,
+      "question": "A 72-year-old woman is brought to the physician by her daughter because of a 6-month history of worsening short-term memory deficits and social withdrawal. Treatment with galantamine is initiated. Two",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 54,
+      "question": "A 61-year-old man with schizophrenia in a locked inpatient psychiatry unit was observed making an unusual smacking motion with his lips, pursing his mouth, and blinking excessively. These symptoms sta",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 55,
+      "question": "A 17-year-old football player with no significant past medical history, social history, or family history presents to his pediatrician with itching in his groin. He says this started during summer wor",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 56,
+      "question": "An otherwise healthy 26-year-old man comes to the physician for medication counseling after recently being diagnosed with schizophrenia. Risperidone therapy is initiated. This patient is at increased ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 57,
+      "question": "A 15-year-old woman presents with fever, altered mental status and a petechial rash on her lower extremities and back since yesterday evening. She also says she has been nauseous for the past 3 hours ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 58,
+      "question": "A 2-year-old boy is brought to the physician for evaluation of pallor and increasing lethargy for 2 days. One week ago, he experienced abdominal pain, vomiting, and bloody diarrhea that have since sub",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 59,
+      "question": "A 17-year-old girl is referred by her dentist for a suspected eating disorder. She has been visiting the same dentist since childhood and for the past 2 years has had at least 2 visits for dental cari",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 60,
+      "question": "A 14-year-old girl is brought to the physician by her father because of fever, chills, abdominal pain, and profuse non-bloody diarrhea. Her symptoms began one week ago, when she had several days of lo",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 61,
+      "question": "A 22-year-old female college student is treated with metronidazole after presenting to student health services with itching, discharge, and pain in her vagina. At a party shortly afterward she experie",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 62,
+      "question": "A 23-year-old primigravida presents for a regular prenatal care visit at 16 weeks gestation. She complains of increased fatigability, but is otherwise well. She takes folic acid, iron, and vitamin D s",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 63,
+      "question": "An 80-year-old man is transferred from a step-down unit to a med-surg floor in the hospital. He had undergone a successful hernia surgery 14 hours ago. Before the surgery, he was pre-treated with atro",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 64,
+      "question": "A healthy 19-year-old man presents to his primary care provider complaining of painless “blisters” in his mouth. He reports that he noticed a white film on his tongue and the sides of his mouth 2 days",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 65,
+      "question": "A 56-year-old man presents to the clinic complaining of subacute back pain for the past month. The pain is described as a dull, constant ache that is worse at night. He could not recall any precipitat",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 66,
+      "question": "A 4-year-old boy is brought to the emergency department because of severe abdominal pain and bilious vomiting for 6 hours. He has not had bowel movements in the past 24 hours. He appears ill. His temp",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 67,
+      "question": "A 3-week-old male newborn is brought to the hospital because of poor weight gain since birth. He was born at 38 weeks' gestation via normal vaginal delivery. He weighed 3005 g (6 lb, 10 oz) at birth a",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 68,
+      "question": "A 57-year-old female with a past medical history of alcoholism presents to the emergency room vomiting bright red blood. She is accompanied by her partner, who reports that she had been complaining of",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 69,
+      "question": "A 65-year-old man with a history of hypertension, obesity, and alcoholic cirrhosis is seen in clinic for follow-up. He feels well and currently drinks 5 glasses of wine each night. Medications include",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 70,
+      "question": "A 66-year-old man is brought to the emergency room by his wife due to abdominal distension and persistent somnolence for the past 2 weeks. The patient’s wife says that he has been sleeping much more t",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 71,
+      "question": "A 27-year-old man presents to the emergency department after a motor vehicle collision. The patient was the front seat unrestrained driver in a head on collision. The patient’s echocardiogram (ECG) is",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 72,
+      "question": "A 56-year-old man presents to the emergency department for progressively worsening fatigue, malaise, fever, and abdominal pain. He reports that his symptoms began approximately 1 week ago and he has n",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 73,
+      "question": "A 29-year-old woman presents to the clinic after several months of weight loss. She noticed a 6.8 kg (15 lb) unintentional weight loss over the preceding several months. She has not changed her diet o",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 74,
+      "question": "A 21-year-old man comes to the physician because of pruritus and a hypopigmented rash on his upper body for 5 days. He first noticed the symptoms after returning from a business trip last week in the ",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 75,
+      "question": "A 5-year-old female is brought to a speech therapist for continuing work on improving her communication skills. She is only able to verbalize two word sentences and has generalized developmental delay",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 76,
+      "question": "A 62-year old female comes to the physician because of vaginal spotting and urinary urgency for the past 4 days. She has had no fever, abdominal pain, or diarrhea. Menopause occurred at 52 years of ag",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 77,
+      "question": "A 59-year-old man is evaluated for progressive joint pain. There is swelling and tenderness over the first, second, and third metacarpophalangeal joints of both hands. His hand radiograph is shown. He",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 78,
+      "question": "A newborn is found to be extremely cyanotic immediately after birth. He then develops progressive respiratory failure and is admitted to the neonatal ICU. A single loud S2 heart sound is appreciated a",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 79,
+      "question": "A 25-year-old male involved in a knife fight presents with a penetrating wound to the chest. The patient is unconscious and cannot provide any further history. Vitals show a temperature of 37-0°C (98.",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 80,
+      "question": "A post-mortem lung examination of a 68-year-old male overweight male with evidence of chronic lower extremity edema, a 60 pack-year smoking history and daily productive cough would be most likely to r",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 81,
+      "question": "A 54-year-old male makes an appointment with his primary care physician due to chronic fatigue that has left him unable to hike or do other physically demanding activities with his friends. He has wel",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 82,
+      "question": "A 44-year-old African-American woman comes to the physician for a routine examination. She is concerned about cancer because her uncle died of metastatic melanoma 1 year ago. She has no history of ser",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 83,
+      "question": "A 60-year-old woman is brought to the clinic by her daughter for evaluation. The daughter reports that her mother has recently been having difficulty combing her hair in the mornings. The patient’s fa",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 84,
+      "question": "A 30-year-old woman comes to the physician because she has been unable to conceive for 3 years. Analysis of her husband's semen has shown normal sperm counts during this time. The patient also reports",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 85,
+      "question": "A 55-year-old truck driver is brought to a physician by his wife. She states that her husband developed a fever and began feeling weak 3 days ago, but has refused medical help. He has been unable to g",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 86,
+      "question": "A previously healthy 30-year-old woman comes to the physician for the evaluation of pain during sexual intercourse for 6 months. She also reports frequent episodes of crampy pelvic pain that starts on",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 87,
+      "question": "A 50-year-old man visits his physician after 20 years of not seeking any medical care. He is concerned about his health after a colleague recently had a heart attack. The patient has no active complai",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 88,
+      "question": "A 26-year-old woman is brought to the emergency department 20 minutes after being involved in a high-speed motor vehicle collision in which she was a restrained passenger. On arrival, she is lethargic",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 89,
+      "question": "A 26-year-old G1P0 woman presents to her primary care physician’s office with feelings of anxiety and trouble with sleep. She finds it difficult initiating sleep, occasionally has palpitations, and fe",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 90,
+      "question": "A 32-year-old woman comes to the physician because of a 3-week history of intermittent loose stools and a 1.2-kg (2.6-lb) weight loss. She immigrated to the US from Uganda 6 weeks ago. Abdominal exami",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 91,
+      "question": "A 3-month-old girl is brought to a pediatrician by her parents. She has central cyanosis without signs of respiratory distress or signs of heart failure. An echocardiogram reveals severe pulmonary out",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 92,
+      "question": "Six days after undergoing surgical repair of a hip fracture, a previously healthy 79-year-old woman is agitated and confused. She is unarousable during the day, but then is awake and impulsive during ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 93,
+      "question": "A 54-year-old woman with a past medical history of mental retardation, hypertension, and diabetes presents to the emergency department with a change in her behavior. Her caretakers state that the pati",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 94,
+      "question": "A 24-year-old man is brought to the emergency department 15 minutes after he sustained a stab wound to the left chest just below the clavicle. On arrival, he has rapid, shallow breathing and appears a",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 95,
+      "question": "A 40-year-old man presents to his primary-care doctor for a follow-up of his hypertension. He is asymptomatic at his office visit and denies any new complaints. He has a 10-year history of hypertensio",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 96,
+      "question": "A 17-year-old female is brought to the emergency room by her father because she has been experiencing shortness of breath and chest pain. She says that the chest pain is worse when she breathes or cou",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 97,
+      "question": "A 26-year-old male presents to his primary care physician with complaints of burning with urination, penile discharge, and intermittent fevers. A urethral smear shows gram negative diplococci within w",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 98,
+      "question": "A 37-year-old man with no significant past medical history is rear-ended in a motor vehicle accident. He reported significant neck pain to emergency responders, but otherwise denies weakness, numbness",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 99,
+      "question": "A 43-year-old man with a history of schizophrenia, currently controlled with medication, comes in for an appointment with his internist. He is concerned about abnormal discharge from both nipples over",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 100,
+      "question": "A 2-day-old male newborn is brought to the physician because of yellowing of the skin and sclerae for 16 hours. He had previously been well. He was born at 38 weeks' gestation via uncomplicated vagina",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 101,
+      "question": "A 65-year old man presents with gradually worsening rigidity of his arms and legs and slowness in performing tasks. He says he has also noticed hand tremors, which increase at rest and decrease with f",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 102,
+      "question": "The patient is given prophylactic labetalol and magnesium sulfate. Examination shows absent deep tendon reflexes bilaterally. Which of the following is the most appropriate next step in the management",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 103,
+      "question": "A 75-year-old woman is brought by a patrolman to the emergency department because of altered mental status. She was found wandering next to the highway. The patient was unable to answer questions and ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 104,
+      "question": "A 66-year-old male presents to his primary care physician to discuss his increasing shortness of breathover the last 3 months. He notes that this is particularly obvious when he is mowing his lawn or ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 105,
+      "question": "A 28-year-old woman presents following a suicide attempt 2 days ago. She says that her attempt was a result of a fight with her boyfriend and that she slit her wrists in an attempt to keep him from br",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 106,
+      "question": "A 50-year-old man presents to his primary care doctor following an inguinal hernia repair. The patient reports no pain in his lower abdomen or groin, no constipation, and states that he enjoys his usu",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 107,
+      "question": "A 29-year-old man comes in for evaluation of infertility. He has been trying to conceive for over 2 years with his wife and previous evaluation of his wife's fertility revealed no abnormalities. Physi",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 108,
+      "question": "A 13-year-old boy presents to the emergency department with severe knee, hip, and groin pain. The patient has a past medical history notable only for obesity and asthma. His temperature is 98°F (36.7°",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 109,
+      "question": "A 28-year-old man comes to the physician because of diarrhea and crampy abdominal pain for 5 weeks. He has had up to 4 bowel movements per day. Several times he noticed mucoid strings with the stool. ",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 110,
+      "question": "A 51-year-old man is brought to the emergency department because of a 2-day history of fever, abdominal pain, and confusion. His wife states that he has been unable to recall his birthday or her name.",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 111,
+      "question": "An 18-month-old girl is brought to the emergency department because of a cough that her parents are worried about. She has had a runny nose and a low-grade fever for the past 2 days, with some hoarsen",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 112,
+      "question": "A 43-year-old woman presents with complaints of retrosternal burning associated with eating. It has persisted for the past several years but has been getting worse. Her past medical history is unknown",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 113,
+      "question": "A 67-year-old man with chronic kidney disease comes to the physician because of worsening fatigue and shortness of breath on exertion for 6 months. He has a 20-year history of poorly-controlled type 2",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 114,
+      "question": "A 41-year-old man presents to the emergency department with a 6-hour history of muscle cramping, decreased appetite, and diarrhea. He says that these symptoms came on rapidly but does not recall anyth",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 115,
+      "question": "A scientist is studying the properties of myosin-actin interactions in a sample of human muscle tissue. She has identified a drug that selectively inhibits phosphate release by the myosin head. If she",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 116,
+      "question": "A 16-year-old boy with a seizure disorder and cognitive delay is brought to the physician because of progressively worsening right lower extremity weakness for the past 6 months. He does not make eye ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 117,
+      "question": "A 66-year-old man presents to the emergency department with abdominal pain, nausea, and vomiting. He endorses diffuse abdominal tenderness. His past medical history is notable for diabetic nephropathy",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 118,
+      "question": "A 56-year-old man comes to the clinic for a check-up. He presents with a 1-year history of worsening shortness of breath and weight loss. He is a former construction worker, and worked in a steel mill",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 119,
+      "question": "A 25-year-old zookeeper presents to the office complaining of a dry cough, fever, and chills for the past month. He states that the symptoms come in episodes at the end of the workday and last a few h",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 120,
+      "question": "A 60-year-old female presents to her gynecologist with vaginal bleeding. She underwent menopause ten years prior. She has a past medical history of hypertension and diabetes mellitus. On physical exam",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 121,
+      "question": "A 40-year-old man presents to the physician with progressive weight loss for the last 3 months. He also says he frequently sweats profusely at night and has a recurring low-grade fever, for which he t",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 122,
+      "question": "A 28-year-old gravida 1 at 32 weeks gestation is evaluated for an abnormal ultrasound that showed fetal microcephaly. Early in the 1st trimester, she had fevers and headaches for 1 week. She also expe",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 123,
+      "question": "A 41-year-old G3P1 woman presents with a sudden onset throbbing headache, tinnitus, nausea, and left-sided weakness. Patient has no significant past medical history and takes no medications.  Her last",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 124,
+      "question": "A obstetrician is working in a developing country to help promote maternal health and fetal well being. While there, he delivers a baby who he suspects has congenital hypothyroidism, most likely cause",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 125,
+      "question": "A 33-year-old nurse is referred to an infectious disease specialist after she exhibited a PPD skin test with 17 mm of induration. She denies any cough, shortness of breath, hemoptysis, weight loss, fa",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 126,
+      "question": "An 81-year-old woman is brought to the emergency room by her son after witnessing the patient fall and hit her head. The son reports that the patient was in her usual state of health until she complai",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 127,
+      "question": "A 67-year-old man with peripheral neuropathy comes to the physician for a follow-up examination after the results of serum protein electrophoresis showed monoclonal gammopathy. A complete blood count,",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 128,
+      "question": "A 47-year-old woman comes to the physician because of progressive muscle weakness for five months. She feels that the muscles in her shoulders and hips have been getting weaker and sometimes feel sore",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 129,
+      "question": "A 41-year-old man presents to the emergency room with sudden onset of blurry vision one hour ago. He states that he was resting at home when he noticed he had difficulty reading. Currently, he is also",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 130,
+      "question": "A 4-week-old female newborn is brought to the physician because of increasing yellowing of her eyes and skin for 2 weeks. The mother has noticed that the girl's stools have become pale over the past w",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 131,
+      "question": "A 43-year-old man comes to the emergency department with nausea, abdominal discomfort, diarrhea, and progressive perioral numbness for the past 24 hours. 3 days ago, he underwent a total thyroidectomy",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 132,
+      "question": "A 68-year-old woman presents with left lower quadrant pain that worsens with defecation. She describes the pain as 'crampy'. She also says she has suffered from mild constipation for the past few year",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 133,
+      "question": "A 67-year-old man presents to his primary care physician for erectile dysfunction. He states that for the past month he has been unable to engage in sexual intercourse with his wife despite having app",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 134,
+      "question": "A 55-year-old man with a history of chronic glomerulonephritis due to IgA nephropathy presents to your office with bone pain. Which of the following laboratory findings would you most expect upon anal",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 135,
+      "question": "A medical researcher is studying the physiology of the immune system in order to better understand the effects of HIV on patients. He isolates a group of cells that are shown by flow cytometry to be p",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 136,
+      "question": "A 61-year-old Caucasian male presents to your office with chest pain. He states that he is worried about his heart, as his father died at age 62 from a heart attack. He reports that his chest pain wor",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 137,
+      "question": "A 36-year-old woman comes to the clinic because of tearing and a foreign body sensation in her eyes bilaterally, which has gradually worsened over the last several weeks. She also notes having occasio",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 138,
+      "question": "A 7-year-old boy is brought to a pediatrician by his parents for evaluation of frequent bed wetting during the night. A detailed history reveals that there has been no history of urinary incontinence ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 139,
+      "question": "A 52-year-old man with a history of gastric cancer that was treated with subtotal gastrectomy dies in a motor vehicle collision. At autopsy, examination of the spinal cord shows unilateral atrophy of ",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 140,
+      "question": "A 24-year-old pregnant woman at 28 weeks gestation presents to the emergency department with complaints of fever with chills and pain in her knee and ankle joints for the past 2 days. She also complai",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 141,
+      "question": "A 25-year-old woman presents to her physician with a four month history of fatigue and weakness. The weakness has been progressive to the point where she cannot climb stairs and stand from a sitting p",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 142,
+      "question": "A 67-year-woman with non-Hodgkin lymphoma comes to the physician because of progressively increasing numbness and tingling in her fingers and toes. Her last cycle of chemotherapy with vincristine was ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 143,
+      "question": "A 68-year-old man comes to the physician with a 1-week history of painless hematuria. A CT scan of the urinary tract shows areas of bladder wall thickening. Cystoscopy shows several sessile masses wit",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 144,
+      "question": "A 14-year-old girl comes to the physician with her father for evaluation of her short stature. She feels well overall, but is concerned because all of her friends are taller than her. Her birth weight",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 145,
+      "question": "A 5-year-old boy is brought to the physician because of facial swelling that started 5 days ago. Two weeks ago, he had a sore throat that resolved spontaneously. His temperature is 37°C (98.6°F), puls",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 146,
+      "question": "A 60-year-old man is referred to a dermatologist by his family physician for management of a rare case of dermatitis that has not responded to standard therapy with corticosteroids. The patient’s medi",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 147,
+      "question": "A 35-year-old woman comes to the physician because she has been feeling very stressed over the past several months. During this period, she has found it difficult to relax. She states that her head is",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 148,
+      "question": "A 65-year-old man presents to his primary care physician for a change in his behavior over the past few months. Initially, the patient was noted to be behaving inappropriately including using foul lan",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 149,
+      "question": "An 11-month-old boy is brought to the clinic by his mother for a rash on his trunk, which he has had for the past 2 days. She notes that he is eating less and is more cranky than usual. His birth hist",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 150,
+      "question": "A 52-year-old man is brought to the emergency department with dry cough, shortness of breath, and low-grade fever that began 6 days ago. He also reports that he has had 3 episodes of watery diarrhea p",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 151,
+      "question": "A transvaginal ultrasound shows an intrauterine heteroechoic mass with numerous anechoic spaces and no identifiable fetus or amniotic fluid. Both the ovaries are enlarged and have multiple thin-walled",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 152,
+      "question": "A 75-year-old woman is brought to the emergency department by her son because of a 2-day history of fever, headache, malaise, and dry cough. The patient lives with her son and his family and her son r",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 153,
+      "question": "A 71-year-old man comes to the physician for a routine visit. His psychiatric history is significant for major depression with psychotic features. He was diagnosed after his wife died from pancreatic ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 154,
+      "question": "A 4-year-old boy is brought to the physician because of a generalized rash for 3 days. During this period, he has had severe itching and was not able to sleep well. He has also had fever, headache, an",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 155,
+      "question": "A 19-year-old man is brought to the emergency department by ambulance because of unusual behavior that started 3 hours ago while he was at a party. He has a history of major depressive disorder and se",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 156,
+      "question": "A 22-year-old male presents to the emergency room complaining of neck stiffness. He reports that his neck started “locking” three hours ago. He is now unable to move it. His past medical history is no",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 157,
+      "question": "A 13-month-old boy is brought to the physician for a well-child examination. Physical examination shows hepatosplenomegaly. A venous blood sample obtained for routine screening tests is milky. After r",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 158,
+      "question": "A 41-year-old man comes to the emergency department with nausea, abdominal discomfort, and diarrhea for the past 2 days. His abdominal discomfort is worse shortly after meals. He has also had progress",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 159,
+      "question": "A 9-year-old boy is brought to a physician by his mother for evaluation of generalized weakness, increased urination, and increased thirst. The mother mentions that her boy is always tired, and seems ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 160,
+      "question": "A 5-year-old boy of African descent is presented to the emergency department by his parents. The child is clutching his abdomen and crying about pain in his belly. His mother reports intermittent epis",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 161,
+      "question": "A 51-year-old woman presents to her primary care physician complaining of months of dry mouth and dry eyes. She says the dryness has become so severe that she has difficulty swallowing food. She has a",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 162,
+      "question": "A 59-year-old man presents to his primary care provider with fatigue, a progressively worsening cough with flecks of blood, shortness of breath, and dark urine. He reports feeling ill for the past 3 w",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 163,
+      "question": "A 32-year-old man with HIV infection is brought to the emergency department by his roommate because of a 2-week history of progressively worsening headache and vomiting. Current medications include tr",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 164,
+      "question": "A 70-year-old woman comes to the physician for the evaluation of back pain. For the past six days, she has had a burning pain in her upper right back and chest. She cannot recall any recent injury and",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 165,
+      "question": "A type of fatal adrenal cancer has an average survival rate of 3 years after the onset of clinically significant symptoms. It is determined that patients have a 4-year asymptomatic period prior to dev",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 166,
+      "question": "A 60-year-old man presents to the office for shortness of breath. The shortness of breath started a year ago and is exacerbated by physical activity. He has been working in the glass manufacturing ind",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 167,
+      "question": "A 43-year-old woman is brought to the emergency department by her brother for severe chest pain. The patient recently lost her husband in a car accident and is still extremely shocked by the event. On",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 168,
+      "question": "A 56-year-old man is brought to the emergency department. He was found unconscious on the street. The staff recognizes him as a local homeless man with a long history of alcoholism. At the hospital, h",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 169,
+      "question": "An 8-year-old girl comes to the physician because of a 2-day history of hematuria. Two weeks ago, she had a sore throat that resolved without treatment. Physical examination shows 1+ pitting edema of ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 170,
+      "question": "A 25-year-old man presents to the emergency department with altered mental status. He was found down in the middle of the street. His past medical history is unknown. His temperature is 99.0°F (37.2°C",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 171,
+      "question": "A 38-year-old G4P3 presents to her obstetrician’s office for her 20-week anatomy ultrasound. She reports that she feels well and has not experienced any contractions or vaginal bleeding. She also repo",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 172,
+      "question": "An 83-year-old man is admitted to the hospital with fever, weakness, and decreased responsiveness. He is diagnosed with urosepsis based on urinalysis and culture and started on ceftriaxone and intrave",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 173,
+      "question": "A 26-year-old woman comes to the physician because of fatigue, weight loss, and muscle aches during the past 2 months. There is no personal or family history of serious illness. Her only medication is",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 174,
+      "question": "An investigator conducts a study to determine whether earlier detection of glioblastoma multiforme (GBM) in patients increases survival time. One subset of study participants consists of asymptomatic ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 175,
+      "question": "A 23-year-old man is brought to the emergency department 25 minutes after being involved in a high-speed motor vehicle collision in which he was the restrained driver. On questioning by the paramedics",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 176,
+      "question": "A novel type of PET radiotracer is being developed to evaluate patients with Parkinson’s disease. A clinical research study has enrolled 1,200 patients, half of whom have the disease. The scan is foun",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 177,
+      "question": "A 55-year-old man presents to a rheumatologist with bilateral wrist and knee pain that has been present for the last 10 years. The patient was a professional athlete who retired at age 50. He also not",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 178,
+      "question": "A 40-year-old businessman who was previously well is brought into the emergency department by his assistant with a complaint of left-sided weakness after a chiropractic neck manipulation. He has never",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 179,
+      "question": "A previously healthy 19-year-old man comes to the physician with right-sided, dull, throbbing scrotal pain for 12 hours. He has also had a burning sensation on urination and increased urinary frequenc",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 180,
+      "question": "A 4-month-old infant is brought to the office by his parents due to sudden nose bleeding without trauma of any kind. He has a 1-month history of multiple bruising that measures 1 cm in diameter each i",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 181,
+      "question": "A 6-year-old boy is brought to the physician by his mother because of a 2-day history of dysuria and increased urinary frequency. Vital signs are within normal limits. Urinalysis shows cloudy, red uri",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 182,
+      "question": "A 13-year-old boy is brought to his pediatrician due to a left breast lump under his nipple. He noticed it last month and felt that it has increased slightly in size. It is tender to touch but has no ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 183,
+      "question": "A 35-year-old Caucasian female presents to the emergency room with unilateral leg swelling. She reports that she developed painful left-sided leg swelling and redness earlier in the day. She is otherw",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 184,
+      "question": "A 78-year-old man is brought to the physician by his daughter because of increasing forgetfulness over the past 5 weeks. He had been living independently but came to live with his daughter temporarily",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 185,
+      "question": "A previously healthy 18-month-old boy is brought to the physician by his parents for evaluation of an abdominal mass noticed a few days ago. He appears markedly pale and lethargic. Examination shows a",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 186,
+      "question": "A laboratory primarily involved with studying cellular proofreading mechanisms is investigating the question of whether the ribosome can recognize a mischarged amino acid and still be incorporated int",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 187,
+      "question": "A 65-year-old man with metastatic lung cancer has been experiencing severe, unremitting pain. He has required escalating doses of oral morphine, but is now having dose limiting side-effects. His pain ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 188,
+      "question": "A 27-year-old man presents to the emergency room complaining of left shoulder pain for several weeks. He says that the pain often worsens when he tries to sleep on his left side. Although he tried sev",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 189,
+      "question": "A 17-year-old woman presents to your office concerned that she has not had her menstrual period in 4 months. She states that menses began at age of 13 and has been regular until two months ago. She de",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 190,
+      "question": "A 23-year-old college student presents to the clinic with a history of intermittent chest discomfort. He reports that, about once per month for the past 8 or 9 months, he's had episodes of \"feeling li",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 191,
+      "question": "A stillborn infant is delivered at 38 weeks' gestation to a 32-year-old woman. The mother had no prenatal care. Examination of the stillborn shows a small pelvis, shallow intergluteal cleft, and club ",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 192,
+      "question": "Please refer to the summary above to answer this question\nThe authors of the study have decided to conduct a follow-up analysis on their data. They decide to stratify their results by CD4+T-lymphocyte",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 193,
+      "question": "During a Mycobacterium tuberculosis infection, Th1 cells secrete a factor capable of stimulating phagosome-lysosome fusion within macrophages. In addition, the secreted factors help activate macrophag",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 194,
+      "question": "A 3-year-old boy is brought to the pediatrician because of abdominal pain and constipation for 3 weeks. His mother says he has been increasingly irritable recently. His vocabulary consists of 50 words",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 195,
+      "question": "A group of researchers conducted a study to determine whether there is an association between folic acid supplementation before pregnancy and autism spectrum disorder (ASD) in offspring. The researche",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 196,
+      "question": "A student studying pharmacology is a member of a team that is conducting research related to the elimination of multiple anticoagulant medications. His duty as a member of the team is to collect serum",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 197,
+      "question": "A 40-year-old woman presents to her primary care physician for a checkup. She has felt weaker lately and has lost some weight. She denies any urinary issues. Her BUN at her last visit 4 months ago was",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 198,
+      "question": "A 28-year-old woman comes to the obstetrics and gynecology clinic because she has been unsuccessfully trying to conceive with her husband for the last 2 years. He has had 2 children from a previous ma",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 199,
+      "question": "A 2-year-old girl with recurrent urinary tract infections is brought to the physician for a follow-up examination. Renal ultrasound shows bilateral dilation of the renal pelvis. A voiding cystourethro",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    }
+  ],
+  "base_details": [
+    {
+      "index": 0,
+      "question": "A junior orthopaedic surgery resident is completing a carpal tunnel repair with the department chairman as the attending physician. During the case, the resident inadvertently cuts a flexor tendon. Th",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 1,
+      "question": "A 67-year-old man with transitional cell carcinoma of the bladder comes to the physician because of a 2-day history of ringing sensation in his ear. He received this first course of neoadjuvant chemot",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 2,
+      "question": "Two weeks after undergoing an emergency cardiac catherization with stenting for unstable angina pectoris, a 61-year-old man has decreased urinary output and malaise. He has type 2 diabetes mellitus an",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 3,
+      "question": "A 39-year-old woman is brought to the emergency department because of fevers, chills, and left lower quadrant pain. Her temperature is 39.1°C (102.3°F), pulse is 126/min, respirations are 28/min, and ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 4,
+      "question": "A 35-year-old man comes to the physician because of itchy, watery eyes for the past week. He has also been sneezing multiple times a day during this period. He had a similar episode 1 year ago around ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 5,
+      "question": "A 39-year-old man presents to the emergency department because of progressively worsening chest pain and nausea that started at a local bar 30 minutes prior. The pain radiates to the epigastric area. ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 6,
+      "question": "A 68-year-old male comes to the physician for evaluation of right flank pain. He has a history of diabetes and peripheral artery disease. His blood pressure is 160/90 mm Hg. Physical examination shows",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 7,
+      "question": "A 65-year-old man is brought to the emergency department 30 minutes after the onset of acute chest pain. He has hypertension and asthma. Current medications include atorvastatin, lisinopril, and an al",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 8,
+      "question": "A 37-year-old-woman presents to her primary care physician requesting a new form of birth control. She has been utilizing oral contraceptive pills (OCPs) for the past 8 years, but asks to switch to an",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 9,
+      "question": "A 23-year-old woman comes to the physician because she is embarrassed about the appearance of her nails. She has no history of serious illness and takes no medications. She appears well. A photograph ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 10,
+      "question": "A 24-year-old G2P1 woman at 39 weeks’ gestation presents to the emergency department complaining of painful contractions occurring every 10 minutes for the past 2 hours, consistent with latent labor. ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 11,
+      "question": "A 72-year-old man comes to the physician because of a 2-month history of fatigue and worsening abdominal pain. During this period, he also has excessive night sweats and shortness of breath on exertio",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 12,
+      "question": "A 20-year-old man comes to the physician because of worsening gait unsteadiness and bilateral hearing loss for 1 month. He has had intermittent tingling sensations on both cheeks over this time period",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 13,
+      "question": "A 47-year-old executive schedules an appointment his physician for a routine medical check-up. He currently has no complaints and claims to be “as fit as a fiddle.” The physical examination findings a",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 14,
+      "question": "A microbiologist is studying the emergence of a virulent strain of the virus. After a detailed study of the virus and its life cycle, he proposes a theory: Initially, a host cell is co-infected with 2",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 15,
+      "question": "A 59-year-old overweight woman presents to the urgent care clinic with the complaint of severe abdominal pain for the past 2 hours. She also complains of a dull pain in her back with nausea and vomiti",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 16,
+      "question": "A 7-year-old boy is brought to his pediatrician’s office for a follow-up visit. He was diagnosed with asthma when he was 3 years old and has since been on treatment for the condition. He is currently ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 17,
+      "question": "A 3-month-old boy is brought the emergency department by his parents after an episode of cyanosis and muscle hypotonia that resolved after 2 minutes. Diagnostic evaluation fails to discover an exact e",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 18,
+      "question": "A 29-year-old man presents to the emergency department due to central chest pain over the past 3 days which is constant and unrelated to exertion. The pain is sharp, severe, increases when lying down,",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 19,
+      "question": "A 46-year-old man is brought to the emergency department for evaluation of altered mental status. He was found on the floor in front of his apartment. He is somnolent but responsive when aroused. His ",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 20,
+      "question": "A 77-year-old woman presents to the emergency room with the complaints of fever, malaise, and night sweats. She recently observed an enlargement of her axillary lymph nodes, which she examines on a we",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 21,
+      "question": "A 3-month-old infant is brought to her pediatrician because she coughs and seems to have difficulty breathing while feeding. In addition, she seems to have less energy compared to other babies and app",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 22,
+      "question": "A 30-year-old African American woman comes to the physician for the evaluation of a dry cough and chest discomfort for the past 3 days. During this period, the patient has had headaches, muscle aches,",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 23,
+      "question": "A 62-year-old patient has been hospitalized for a week due to a stroke. One week into the hospitalization, he develops a fever and purulent cough. His vitals include: heart rate 88/min, respiratory ra",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 24,
+      "question": "A 6-year-old boy is brought to the emergency department by his mother for worsening wheezing and shortness of breath over the past day. He has not had a fever, cough, vomiting, or diarrhea. He has ast",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 25,
+      "question": "A 5-year-old female suffers from recurrent infections by Aspergillus species, Pseudomonas species, and Staphylococcus aureus. The patient's neutrophils are examined in the laboratory and they fail to ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 26,
+      "question": "A 3-year-old boy presents to the emergency department with a ‘cough-like-a-seal bark’ and a high-pitched inspiratory noise that is audible without a stethoscope. His mother reports that his cough has ",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 27,
+      "question": "A 26-year-old woman presents to a gynecologist after a missed period. After performing a complete physical examination and a screening test for pregnancy, her gynecologist informs her that she is preg",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 28,
+      "question": "A 4-year-old previously healthy boy presents with 4 days of intermittent vomiting and 5-6 daily loose stools. His mother noted bloody stools and decreased oral intake of food and water over the last 2",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 29,
+      "question": "A 3-week-old male newborn is brought to the physician because of an inward turning of his left forefoot. He was born at 38 weeks' gestation by cesarean section because of breech presentation. The preg",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 30,
+      "question": "A 42-year-old woman comes to the emergency department because of a 2-day history of right upper abdominal pain and nausea. She is 163 cm (5 ft 4 in) tall and weighs 91 kg (200 lb); her BMI is 34 kg/m2",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 31,
+      "question": "A 72-year-old woman is admitted to the intensive care unit for shortness of breath and palpitations. A cardiac catheterization is performed and measurements of the left ventricular volume and pressure",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 32,
+      "question": "A 22-year-old woman is brought to the emergency department because of a 2-day history of fever, intermittent rigors, and night sweats. She also has a 1-month history of progressive fatigue. Five weeks",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 33,
+      "question": "An otherwise healthy 50-year-old man comes to the physician because of a 6-month history of increasingly frequent episodes of upper abdominal pain, nausea, vomiting, and diarrhea. He has had a 3.2-kg ",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 34,
+      "question": "A 27-year-old man presents to the emergency department. He was brought in by staff from the homeless shelter when they found him unresponsive. The patient is a known IV drug abuser but otherwise has a",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 35,
+      "question": "A 67-year-old man who was diagnosed with arthritis 16 years ago presents with right knee swelling and pain. His left knee was swollen a few weeks ago, but now with both joints affected, he has difficu",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 36,
+      "question": "A 65-year-old woman schedules an appointment with her physician for evaluation of weight loss and weakness. The weakness is more noticeable when climbing stairs and combing hair. The weakness improves",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 37,
+      "question": "A 3-month-old boy presents to his pediatrician with persistent diarrhea, oral candidiasis, and signs and symptoms suggestive of respiratory syncytial virus (RSV) pneumonia. His weight is in the 10th p",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 38,
+      "question": "A 53-year-old man with recurrent pancreatic adenocarcinoma is enrolled in a clinical trial for a novel chemotherapeutic agent that his physician believes may be beneficial to his condition. The novel ",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 39,
+      "question": "A 67-year-old male is seen by neurology after he was noticed to be speaking strangely by his family. After acute treatment with tissue plasminogen activator (tPA), the patient is able to recover most ",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 40,
+      "question": "A 27-year-old woman presents to the office with concerns about her long struggle with her physical appearance since adolescence. She says she has always been \"large\" and was constantly targeted by her",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 41,
+      "question": "А 43-уеаr-old mаn рrеѕеntѕ wіth tіnglіng аnd numbnеѕѕ of the lowеr lіmbѕ for 2 wееkѕ. Не also сomрlаіnѕ of реrѕіѕtеnt раіn in his legs whісh is not relieved by over-the-counter analgesics. Past medica",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 42,
+      "question": "A one-day-old male is evaluated in the hospital nursery for bilious vomiting. The patient has urinated multiple times since birth but has not yet passed meconium. He was born at 38 weeks gestation to ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 43,
+      "question": "A healthy 23-year-old male is undergoing an exercise stress test as part of his physiology class. If blood were to be sampled at different locations before and after the stress test, which area of the",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 44,
+      "question": "A 45-year-old G5P4105 presents to her gynecologist’s office with six months of increasingly heavy periods. She now soaks one super absorbent tampon every two hours for five days each cycle. Her cycles",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 45,
+      "question": "A man is brought into the emergency department by the police department. The officer state that the man has been arrested multiple times for public alcohol intoxication, but recently became homeless. ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 46,
+      "question": "A medical research study is evaluating an investigational novel drug (medication 1) compared with standard therapy (medication 2) in patients presenting to the emergency department with myocardial inf",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 47,
+      "question": "A 55-year-old man comes to the physician because of a 6-week history of tingling pain in the sole of his right foot when he raises it above chest level during exercises. He reports that he started exe",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 48,
+      "question": "A 29-year-old primigravid woman at 35 weeks' gestation is admitted to the hospital in labor. She has no history of serious medical illness. She has had an uncomplicated pregnancy. Her last ultrasound ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 49,
+      "question": "A 67-year-old man is hospitalized after several days of fever and increasing shortness of breath. Respiratory viral panel returns positive for influenza A and the patient is started on a standard five",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 50,
+      "question": "A 65-year-old male is treated for anal carcinoma with therapy including external beam radiation. How does radiation affect cancer cells?",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 51,
+      "question": "A 56-year-old man with a history of hypertension presents to his physician with progressive fatigue and new onset muscle cramps. He has had no recent changes to his medication regimen, which includes ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 52,
+      "question": "A 65-year-old man comes to the physician because of a 1-week history of yellowish discoloration of his skin and generalized pruritus. Examination shows jaundice of the skin and scleral icterus. Urinal",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 53,
+      "question": "A 72-year-old woman is brought to the physician by her daughter because of a 6-month history of worsening short-term memory deficits and social withdrawal. Treatment with galantamine is initiated. Two",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 54,
+      "question": "A 61-year-old man with schizophrenia in a locked inpatient psychiatry unit was observed making an unusual smacking motion with his lips, pursing his mouth, and blinking excessively. These symptoms sta",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 55,
+      "question": "A 17-year-old football player with no significant past medical history, social history, or family history presents to his pediatrician with itching in his groin. He says this started during summer wor",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 56,
+      "question": "An otherwise healthy 26-year-old man comes to the physician for medication counseling after recently being diagnosed with schizophrenia. Risperidone therapy is initiated. This patient is at increased ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 57,
+      "question": "A 15-year-old woman presents with fever, altered mental status and a petechial rash on her lower extremities and back since yesterday evening. She also says she has been nauseous for the past 3 hours ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 58,
+      "question": "A 2-year-old boy is brought to the physician for evaluation of pallor and increasing lethargy for 2 days. One week ago, he experienced abdominal pain, vomiting, and bloody diarrhea that have since sub",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 59,
+      "question": "A 17-year-old girl is referred by her dentist for a suspected eating disorder. She has been visiting the same dentist since childhood and for the past 2 years has had at least 2 visits for dental cari",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 60,
+      "question": "A 14-year-old girl is brought to the physician by her father because of fever, chills, abdominal pain, and profuse non-bloody diarrhea. Her symptoms began one week ago, when she had several days of lo",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 61,
+      "question": "A 22-year-old female college student is treated with metronidazole after presenting to student health services with itching, discharge, and pain in her vagina. At a party shortly afterward she experie",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 62,
+      "question": "A 23-year-old primigravida presents for a regular prenatal care visit at 16 weeks gestation. She complains of increased fatigability, but is otherwise well. She takes folic acid, iron, and vitamin D s",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 63,
+      "question": "An 80-year-old man is transferred from a step-down unit to a med-surg floor in the hospital. He had undergone a successful hernia surgery 14 hours ago. Before the surgery, he was pre-treated with atro",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 64,
+      "question": "A healthy 19-year-old man presents to his primary care provider complaining of painless “blisters” in his mouth. He reports that he noticed a white film on his tongue and the sides of his mouth 2 days",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 65,
+      "question": "A 56-year-old man presents to the clinic complaining of subacute back pain for the past month. The pain is described as a dull, constant ache that is worse at night. He could not recall any precipitat",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 66,
+      "question": "A 4-year-old boy is brought to the emergency department because of severe abdominal pain and bilious vomiting for 6 hours. He has not had bowel movements in the past 24 hours. He appears ill. His temp",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 67,
+      "question": "A 3-week-old male newborn is brought to the hospital because of poor weight gain since birth. He was born at 38 weeks' gestation via normal vaginal delivery. He weighed 3005 g (6 lb, 10 oz) at birth a",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 68,
+      "question": "A 57-year-old female with a past medical history of alcoholism presents to the emergency room vomiting bright red blood. She is accompanied by her partner, who reports that she had been complaining of",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 69,
+      "question": "A 65-year-old man with a history of hypertension, obesity, and alcoholic cirrhosis is seen in clinic for follow-up. He feels well and currently drinks 5 glasses of wine each night. Medications include",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 70,
+      "question": "A 66-year-old man is brought to the emergency room by his wife due to abdominal distension and persistent somnolence for the past 2 weeks. The patient’s wife says that he has been sleeping much more t",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 71,
+      "question": "A 27-year-old man presents to the emergency department after a motor vehicle collision. The patient was the front seat unrestrained driver in a head on collision. The patient’s echocardiogram (ECG) is",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 72,
+      "question": "A 56-year-old man presents to the emergency department for progressively worsening fatigue, malaise, fever, and abdominal pain. He reports that his symptoms began approximately 1 week ago and he has n",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 73,
+      "question": "A 29-year-old woman presents to the clinic after several months of weight loss. She noticed a 6.8 kg (15 lb) unintentional weight loss over the preceding several months. She has not changed her diet o",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 74,
+      "question": "A 21-year-old man comes to the physician because of pruritus and a hypopigmented rash on his upper body for 5 days. He first noticed the symptoms after returning from a business trip last week in the ",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 75,
+      "question": "A 5-year-old female is brought to a speech therapist for continuing work on improving her communication skills. She is only able to verbalize two word sentences and has generalized developmental delay",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 76,
+      "question": "A 62-year old female comes to the physician because of vaginal spotting and urinary urgency for the past 4 days. She has had no fever, abdominal pain, or diarrhea. Menopause occurred at 52 years of ag",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 77,
+      "question": "A 59-year-old man is evaluated for progressive joint pain. There is swelling and tenderness over the first, second, and third metacarpophalangeal joints of both hands. His hand radiograph is shown. He",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 78,
+      "question": "A newborn is found to be extremely cyanotic immediately after birth. He then develops progressive respiratory failure and is admitted to the neonatal ICU. A single loud S2 heart sound is appreciated a",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 79,
+      "question": "A 25-year-old male involved in a knife fight presents with a penetrating wound to the chest. The patient is unconscious and cannot provide any further history. Vitals show a temperature of 37-0°C (98.",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 80,
+      "question": "A post-mortem lung examination of a 68-year-old male overweight male with evidence of chronic lower extremity edema, a 60 pack-year smoking history and daily productive cough would be most likely to r",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 81,
+      "question": "A 54-year-old male makes an appointment with his primary care physician due to chronic fatigue that has left him unable to hike or do other physically demanding activities with his friends. He has wel",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 82,
+      "question": "A 44-year-old African-American woman comes to the physician for a routine examination. She is concerned about cancer because her uncle died of metastatic melanoma 1 year ago. She has no history of ser",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 83,
+      "question": "A 60-year-old woman is brought to the clinic by her daughter for evaluation. The daughter reports that her mother has recently been having difficulty combing her hair in the mornings. The patient’s fa",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 84,
+      "question": "A 30-year-old woman comes to the physician because she has been unable to conceive for 3 years. Analysis of her husband's semen has shown normal sperm counts during this time. The patient also reports",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 85,
+      "question": "A 55-year-old truck driver is brought to a physician by his wife. She states that her husband developed a fever and began feeling weak 3 days ago, but has refused medical help. He has been unable to g",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 86,
+      "question": "A previously healthy 30-year-old woman comes to the physician for the evaluation of pain during sexual intercourse for 6 months. She also reports frequent episodes of crampy pelvic pain that starts on",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 87,
+      "question": "A 50-year-old man visits his physician after 20 years of not seeking any medical care. He is concerned about his health after a colleague recently had a heart attack. The patient has no active complai",
+      "ground_truth": "C",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 88,
+      "question": "A 26-year-old woman is brought to the emergency department 20 minutes after being involved in a high-speed motor vehicle collision in which she was a restrained passenger. On arrival, she is lethargic",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 89,
+      "question": "A 26-year-old G1P0 woman presents to her primary care physician’s office with feelings of anxiety and trouble with sleep. She finds it difficult initiating sleep, occasionally has palpitations, and fe",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 90,
+      "question": "A 32-year-old woman comes to the physician because of a 3-week history of intermittent loose stools and a 1.2-kg (2.6-lb) weight loss. She immigrated to the US from Uganda 6 weeks ago. Abdominal exami",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 91,
+      "question": "A 3-month-old girl is brought to a pediatrician by her parents. She has central cyanosis without signs of respiratory distress or signs of heart failure. An echocardiogram reveals severe pulmonary out",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 92,
+      "question": "Six days after undergoing surgical repair of a hip fracture, a previously healthy 79-year-old woman is agitated and confused. She is unarousable during the day, but then is awake and impulsive during ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 93,
+      "question": "A 54-year-old woman with a past medical history of mental retardation, hypertension, and diabetes presents to the emergency department with a change in her behavior. Her caretakers state that the pati",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 94,
+      "question": "A 24-year-old man is brought to the emergency department 15 minutes after he sustained a stab wound to the left chest just below the clavicle. On arrival, he has rapid, shallow breathing and appears a",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 95,
+      "question": "A 40-year-old man presents to his primary-care doctor for a follow-up of his hypertension. He is asymptomatic at his office visit and denies any new complaints. He has a 10-year history of hypertensio",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 96,
+      "question": "A 17-year-old female is brought to the emergency room by her father because she has been experiencing shortness of breath and chest pain. She says that the chest pain is worse when she breathes or cou",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 97,
+      "question": "A 26-year-old male presents to his primary care physician with complaints of burning with urination, penile discharge, and intermittent fevers. A urethral smear shows gram negative diplococci within w",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 98,
+      "question": "A 37-year-old man with no significant past medical history is rear-ended in a motor vehicle accident. He reported significant neck pain to emergency responders, but otherwise denies weakness, numbness",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 99,
+      "question": "A 43-year-old man with a history of schizophrenia, currently controlled with medication, comes in for an appointment with his internist. He is concerned about abnormal discharge from both nipples over",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 100,
+      "question": "A 2-day-old male newborn is brought to the physician because of yellowing of the skin and sclerae for 16 hours. He had previously been well. He was born at 38 weeks' gestation via uncomplicated vagina",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 101,
+      "question": "A 65-year old man presents with gradually worsening rigidity of his arms and legs and slowness in performing tasks. He says he has also noticed hand tremors, which increase at rest and decrease with f",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 102,
+      "question": "The patient is given prophylactic labetalol and magnesium sulfate. Examination shows absent deep tendon reflexes bilaterally. Which of the following is the most appropriate next step in the management",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 103,
+      "question": "A 75-year-old woman is brought by a patrolman to the emergency department because of altered mental status. She was found wandering next to the highway. The patient was unable to answer questions and ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 104,
+      "question": "A 66-year-old male presents to his primary care physician to discuss his increasing shortness of breathover the last 3 months. He notes that this is particularly obvious when he is mowing his lawn or ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 105,
+      "question": "A 28-year-old woman presents following a suicide attempt 2 days ago. She says that her attempt was a result of a fight with her boyfriend and that she slit her wrists in an attempt to keep him from br",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 106,
+      "question": "A 50-year-old man presents to his primary care doctor following an inguinal hernia repair. The patient reports no pain in his lower abdomen or groin, no constipation, and states that he enjoys his usu",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 107,
+      "question": "A 29-year-old man comes in for evaluation of infertility. He has been trying to conceive for over 2 years with his wife and previous evaluation of his wife's fertility revealed no abnormalities. Physi",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 108,
+      "question": "A 13-year-old boy presents to the emergency department with severe knee, hip, and groin pain. The patient has a past medical history notable only for obesity and asthma. His temperature is 98°F (36.7°",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 109,
+      "question": "A 28-year-old man comes to the physician because of diarrhea and crampy abdominal pain for 5 weeks. He has had up to 4 bowel movements per day. Several times he noticed mucoid strings with the stool. ",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 110,
+      "question": "A 51-year-old man is brought to the emergency department because of a 2-day history of fever, abdominal pain, and confusion. His wife states that he has been unable to recall his birthday or her name.",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 111,
+      "question": "An 18-month-old girl is brought to the emergency department because of a cough that her parents are worried about. She has had a runny nose and a low-grade fever for the past 2 days, with some hoarsen",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 112,
+      "question": "A 43-year-old woman presents with complaints of retrosternal burning associated with eating. It has persisted for the past several years but has been getting worse. Her past medical history is unknown",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 113,
+      "question": "A 67-year-old man with chronic kidney disease comes to the physician because of worsening fatigue and shortness of breath on exertion for 6 months. He has a 20-year history of poorly-controlled type 2",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 114,
+      "question": "A 41-year-old man presents to the emergency department with a 6-hour history of muscle cramping, decreased appetite, and diarrhea. He says that these symptoms came on rapidly but does not recall anyth",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 115,
+      "question": "A scientist is studying the properties of myosin-actin interactions in a sample of human muscle tissue. She has identified a drug that selectively inhibits phosphate release by the myosin head. If she",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 116,
+      "question": "A 16-year-old boy with a seizure disorder and cognitive delay is brought to the physician because of progressively worsening right lower extremity weakness for the past 6 months. He does not make eye ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 117,
+      "question": "A 66-year-old man presents to the emergency department with abdominal pain, nausea, and vomiting. He endorses diffuse abdominal tenderness. His past medical history is notable for diabetic nephropathy",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 118,
+      "question": "A 56-year-old man comes to the clinic for a check-up. He presents with a 1-year history of worsening shortness of breath and weight loss. He is a former construction worker, and worked in a steel mill",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 119,
+      "question": "A 25-year-old zookeeper presents to the office complaining of a dry cough, fever, and chills for the past month. He states that the symptoms come in episodes at the end of the workday and last a few h",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 120,
+      "question": "A 60-year-old female presents to her gynecologist with vaginal bleeding. She underwent menopause ten years prior. She has a past medical history of hypertension and diabetes mellitus. On physical exam",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 121,
+      "question": "A 40-year-old man presents to the physician with progressive weight loss for the last 3 months. He also says he frequently sweats profusely at night and has a recurring low-grade fever, for which he t",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 122,
+      "question": "A 28-year-old gravida 1 at 32 weeks gestation is evaluated for an abnormal ultrasound that showed fetal microcephaly. Early in the 1st trimester, she had fevers and headaches for 1 week. She also expe",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 123,
+      "question": "A 41-year-old G3P1 woman presents with a sudden onset throbbing headache, tinnitus, nausea, and left-sided weakness. Patient has no significant past medical history and takes no medications.  Her last",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 124,
+      "question": "A obstetrician is working in a developing country to help promote maternal health and fetal well being. While there, he delivers a baby who he suspects has congenital hypothyroidism, most likely cause",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 125,
+      "question": "A 33-year-old nurse is referred to an infectious disease specialist after she exhibited a PPD skin test with 17 mm of induration. She denies any cough, shortness of breath, hemoptysis, weight loss, fa",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 126,
+      "question": "An 81-year-old woman is brought to the emergency room by her son after witnessing the patient fall and hit her head. The son reports that the patient was in her usual state of health until she complai",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 127,
+      "question": "A 67-year-old man with peripheral neuropathy comes to the physician for a follow-up examination after the results of serum protein electrophoresis showed monoclonal gammopathy. A complete blood count,",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 128,
+      "question": "A 47-year-old woman comes to the physician because of progressive muscle weakness for five months. She feels that the muscles in her shoulders and hips have been getting weaker and sometimes feel sore",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 129,
+      "question": "A 41-year-old man presents to the emergency room with sudden onset of blurry vision one hour ago. He states that he was resting at home when he noticed he had difficulty reading. Currently, he is also",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 130,
+      "question": "A 4-week-old female newborn is brought to the physician because of increasing yellowing of her eyes and skin for 2 weeks. The mother has noticed that the girl's stools have become pale over the past w",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 131,
+      "question": "A 43-year-old man comes to the emergency department with nausea, abdominal discomfort, diarrhea, and progressive perioral numbness for the past 24 hours. 3 days ago, he underwent a total thyroidectomy",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 132,
+      "question": "A 68-year-old woman presents with left lower quadrant pain that worsens with defecation. She describes the pain as 'crampy'. She also says she has suffered from mild constipation for the past few year",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 133,
+      "question": "A 67-year-old man presents to his primary care physician for erectile dysfunction. He states that for the past month he has been unable to engage in sexual intercourse with his wife despite having app",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 134,
+      "question": "A 55-year-old man with a history of chronic glomerulonephritis due to IgA nephropathy presents to your office with bone pain. Which of the following laboratory findings would you most expect upon anal",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 135,
+      "question": "A medical researcher is studying the physiology of the immune system in order to better understand the effects of HIV on patients. He isolates a group of cells that are shown by flow cytometry to be p",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 136,
+      "question": "A 61-year-old Caucasian male presents to your office with chest pain. He states that he is worried about his heart, as his father died at age 62 from a heart attack. He reports that his chest pain wor",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 137,
+      "question": "A 36-year-old woman comes to the clinic because of tearing and a foreign body sensation in her eyes bilaterally, which has gradually worsened over the last several weeks. She also notes having occasio",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 138,
+      "question": "A 7-year-old boy is brought to a pediatrician by his parents for evaluation of frequent bed wetting during the night. A detailed history reveals that there has been no history of urinary incontinence ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 139,
+      "question": "A 52-year-old man with a history of gastric cancer that was treated with subtotal gastrectomy dies in a motor vehicle collision. At autopsy, examination of the spinal cord shows unilateral atrophy of ",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 140,
+      "question": "A 24-year-old pregnant woman at 28 weeks gestation presents to the emergency department with complaints of fever with chills and pain in her knee and ankle joints for the past 2 days. She also complai",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 141,
+      "question": "A 25-year-old woman presents to her physician with a four month history of fatigue and weakness. The weakness has been progressive to the point where she cannot climb stairs and stand from a sitting p",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 142,
+      "question": "A 67-year-woman with non-Hodgkin lymphoma comes to the physician because of progressively increasing numbness and tingling in her fingers and toes. Her last cycle of chemotherapy with vincristine was ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 143,
+      "question": "A 68-year-old man comes to the physician with a 1-week history of painless hematuria. A CT scan of the urinary tract shows areas of bladder wall thickening. Cystoscopy shows several sessile masses wit",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 144,
+      "question": "A 14-year-old girl comes to the physician with her father for evaluation of her short stature. She feels well overall, but is concerned because all of her friends are taller than her. Her birth weight",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 145,
+      "question": "A 5-year-old boy is brought to the physician because of facial swelling that started 5 days ago. Two weeks ago, he had a sore throat that resolved spontaneously. His temperature is 37°C (98.6°F), puls",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 146,
+      "question": "A 60-year-old man is referred to a dermatologist by his family physician for management of a rare case of dermatitis that has not responded to standard therapy with corticosteroids. The patient’s medi",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 147,
+      "question": "A 35-year-old woman comes to the physician because she has been feeling very stressed over the past several months. During this period, she has found it difficult to relax. She states that her head is",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 148,
+      "question": "A 65-year-old man presents to his primary care physician for a change in his behavior over the past few months. Initially, the patient was noted to be behaving inappropriately including using foul lan",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 149,
+      "question": "An 11-month-old boy is brought to the clinic by his mother for a rash on his trunk, which he has had for the past 2 days. She notes that he is eating less and is more cranky than usual. His birth hist",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 150,
+      "question": "A 52-year-old man is brought to the emergency department with dry cough, shortness of breath, and low-grade fever that began 6 days ago. He also reports that he has had 3 episodes of watery diarrhea p",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 151,
+      "question": "A transvaginal ultrasound shows an intrauterine heteroechoic mass with numerous anechoic spaces and no identifiable fetus or amniotic fluid. Both the ovaries are enlarged and have multiple thin-walled",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 152,
+      "question": "A 75-year-old woman is brought to the emergency department by her son because of a 2-day history of fever, headache, malaise, and dry cough. The patient lives with her son and his family and her son r",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 153,
+      "question": "A 71-year-old man comes to the physician for a routine visit. His psychiatric history is significant for major depression with psychotic features. He was diagnosed after his wife died from pancreatic ",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 154,
+      "question": "A 4-year-old boy is brought to the physician because of a generalized rash for 3 days. During this period, he has had severe itching and was not able to sleep well. He has also had fever, headache, an",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 155,
+      "question": "A 19-year-old man is brought to the emergency department by ambulance because of unusual behavior that started 3 hours ago while he was at a party. He has a history of major depressive disorder and se",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 156,
+      "question": "A 22-year-old male presents to the emergency room complaining of neck stiffness. He reports that his neck started “locking” three hours ago. He is now unable to move it. His past medical history is no",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 157,
+      "question": "A 13-month-old boy is brought to the physician for a well-child examination. Physical examination shows hepatosplenomegaly. A venous blood sample obtained for routine screening tests is milky. After r",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 158,
+      "question": "A 41-year-old man comes to the emergency department with nausea, abdominal discomfort, and diarrhea for the past 2 days. His abdominal discomfort is worse shortly after meals. He has also had progress",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 159,
+      "question": "A 9-year-old boy is brought to a physician by his mother for evaluation of generalized weakness, increased urination, and increased thirst. The mother mentions that her boy is always tired, and seems ",
+      "ground_truth": "B",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 160,
+      "question": "A 5-year-old boy of African descent is presented to the emergency department by his parents. The child is clutching his abdomen and crying about pain in his belly. His mother reports intermittent epis",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 161,
+      "question": "A 51-year-old woman presents to her primary care physician complaining of months of dry mouth and dry eyes. She says the dryness has become so severe that she has difficulty swallowing food. She has a",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 162,
+      "question": "A 59-year-old man presents to his primary care provider with fatigue, a progressively worsening cough with flecks of blood, shortness of breath, and dark urine. He reports feeling ill for the past 3 w",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 163,
+      "question": "A 32-year-old man with HIV infection is brought to the emergency department by his roommate because of a 2-week history of progressively worsening headache and vomiting. Current medications include tr",
+      "ground_truth": "A",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 164,
+      "question": "A 70-year-old woman comes to the physician for the evaluation of back pain. For the past six days, she has had a burning pain in her upper right back and chest. She cannot recall any recent injury and",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 165,
+      "question": "A type of fatal adrenal cancer has an average survival rate of 3 years after the onset of clinically significant symptoms. It is determined that patients have a 4-year asymptomatic period prior to dev",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 166,
+      "question": "A 60-year-old man presents to the office for shortness of breath. The shortness of breath started a year ago and is exacerbated by physical activity. He has been working in the glass manufacturing ind",
+      "ground_truth": "B",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 167,
+      "question": "A 43-year-old woman is brought to the emergency department by her brother for severe chest pain. The patient recently lost her husband in a car accident and is still extremely shocked by the event. On",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 168,
+      "question": "A 56-year-old man is brought to the emergency department. He was found unconscious on the street. The staff recognizes him as a local homeless man with a long history of alcoholism. At the hospital, h",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 169,
+      "question": "An 8-year-old girl comes to the physician because of a 2-day history of hematuria. Two weeks ago, she had a sore throat that resolved without treatment. Physical examination shows 1+ pitting edema of ",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 170,
+      "question": "A 25-year-old man presents to the emergency department with altered mental status. He was found down in the middle of the street. His past medical history is unknown. His temperature is 99.0°F (37.2°C",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 171,
+      "question": "A 38-year-old G4P3 presents to her obstetrician’s office for her 20-week anatomy ultrasound. She reports that she feels well and has not experienced any contractions or vaginal bleeding. She also repo",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 172,
+      "question": "An 83-year-old man is admitted to the hospital with fever, weakness, and decreased responsiveness. He is diagnosed with urosepsis based on urinalysis and culture and started on ceftriaxone and intrave",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 173,
+      "question": "A 26-year-old woman comes to the physician because of fatigue, weight loss, and muscle aches during the past 2 months. There is no personal or family history of serious illness. Her only medication is",
+      "ground_truth": "A",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": true
+    },
+    {
+      "index": 174,
+      "question": "An investigator conducts a study to determine whether earlier detection of glioblastoma multiforme (GBM) in patients increases survival time. One subset of study participants consists of asymptomatic ",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 175,
+      "question": "A 23-year-old man is brought to the emergency department 25 minutes after being involved in a high-speed motor vehicle collision in which he was the restrained driver. On questioning by the paramedics",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 176,
+      "question": "A novel type of PET radiotracer is being developed to evaluate patients with Parkinson’s disease. A clinical research study has enrolled 1,200 patients, half of whom have the disease. The scan is foun",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 177,
+      "question": "A 55-year-old man presents to a rheumatologist with bilateral wrist and knee pain that has been present for the last 10 years. The patient was a professional athlete who retired at age 50. He also not",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 178,
+      "question": "A 40-year-old businessman who was previously well is brought into the emergency department by his assistant with a complaint of left-sided weakness after a chiropractic neck manipulation. He has never",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 179,
+      "question": "A previously healthy 19-year-old man comes to the physician with right-sided, dull, throbbing scrotal pain for 12 hours. He has also had a burning sensation on urination and increased urinary frequenc",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 180,
+      "question": "A 4-month-old infant is brought to the office by his parents due to sudden nose bleeding without trauma of any kind. He has a 1-month history of multiple bruising that measures 1 cm in diameter each i",
+      "ground_truth": "B",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 181,
+      "question": "A 6-year-old boy is brought to the physician by his mother because of a 2-day history of dysuria and increased urinary frequency. Vital signs are within normal limits. Urinalysis shows cloudy, red uri",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 182,
+      "question": "A 13-year-old boy is brought to his pediatrician due to a left breast lump under his nipple. He noticed it last month and felt that it has increased slightly in size. It is tender to touch but has no ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 183,
+      "question": "A 35-year-old Caucasian female presents to the emergency room with unilateral leg swelling. She reports that she developed painful left-sided leg swelling and redness earlier in the day. She is otherw",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 184,
+      "question": "A 78-year-old man is brought to the physician by his daughter because of increasing forgetfulness over the past 5 weeks. He had been living independently but came to live with his daughter temporarily",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 185,
+      "question": "A previously healthy 18-month-old boy is brought to the physician by his parents for evaluation of an abdominal mass noticed a few days ago. He appears markedly pale and lethargic. Examination shows a",
+      "ground_truth": "D",
+      "predicted": "A",
+      "raw_response": "A",
+      "correct": false
+    },
+    {
+      "index": 186,
+      "question": "A laboratory primarily involved with studying cellular proofreading mechanisms is investigating the question of whether the ribosome can recognize a mischarged amino acid and still be incorporated int",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 187,
+      "question": "A 65-year-old man with metastatic lung cancer has been experiencing severe, unremitting pain. He has required escalating doses of oral morphine, but is now having dose limiting side-effects. His pain ",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 188,
+      "question": "A 27-year-old man presents to the emergency room complaining of left shoulder pain for several weeks. He says that the pain often worsens when he tries to sleep on his left side. Although he tried sev",
+      "ground_truth": "D",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 189,
+      "question": "A 17-year-old woman presents to your office concerned that she has not had her menstrual period in 4 months. She states that menses began at age of 13 and has been regular until two months ago. She de",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 190,
+      "question": "A 23-year-old college student presents to the clinic with a history of intermittent chest discomfort. He reports that, about once per month for the past 8 or 9 months, he's had episodes of \"feeling li",
+      "ground_truth": "A",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 191,
+      "question": "A stillborn infant is delivered at 38 weeks' gestation to a 32-year-old woman. The mother had no prenatal care. Examination of the stillborn shows a small pelvis, shallow intergluteal cleft, and club ",
+      "ground_truth": "C",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 192,
+      "question": "Please refer to the summary above to answer this question\nThe authors of the study have decided to conduct a follow-up analysis on their data. They decide to stratify their results by CD4+T-lymphocyte",
+      "ground_truth": "D",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": true
+    },
+    {
+      "index": 193,
+      "question": "During a Mycobacterium tuberculosis infection, Th1 cells secrete a factor capable of stimulating phagosome-lysosome fusion within macrophages. In addition, the secreted factors help activate macrophag",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 194,
+      "question": "A 3-year-old boy is brought to the pediatrician because of abdominal pain and constipation for 3 weeks. His mother says he has been increasingly irritable recently. His vocabulary consists of 50 words",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    },
+    {
+      "index": 195,
+      "question": "A group of researchers conducted a study to determine whether there is an association between folic acid supplementation before pregnancy and autism spectrum disorder (ASD) in offspring. The researche",
+      "ground_truth": "C",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": true
+    },
+    {
+      "index": 196,
+      "question": "A student studying pharmacology is a member of a team that is conducting research related to the elimination of multiple anticoagulant medications. His duty as a member of the team is to collect serum",
+      "ground_truth": "A",
+      "predicted": "D",
+      "raw_response": "D",
+      "correct": false
+    },
+    {
+      "index": 197,
+      "question": "A 40-year-old woman presents to her primary care physician for a checkup. She has felt weaker lately and has lost some weight. She denies any urinary issues. Her BUN at her last visit 4 months ago was",
+      "ground_truth": "B",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": true
+    },
+    {
+      "index": 198,
+      "question": "A 28-year-old woman comes to the obstetrics and gynecology clinic because she has been unsuccessfully trying to conceive with her husband for the last 2 years. He has had 2 children from a previous ma",
+      "ground_truth": "D",
+      "predicted": "C",
+      "raw_response": "C",
+      "correct": false
+    },
+    {
+      "index": 199,
+      "question": "A 2-year-old girl with recurrent urinary tract infections is brought to the physician for a follow-up examination. Renal ultrasound shows bilateral dilation of the renal pelvis. A voiding cystourethro",
+      "ground_truth": "C",
+      "predicted": "B",
+      "raw_response": "B",
+      "correct": false
+    }
+  ]
+}
