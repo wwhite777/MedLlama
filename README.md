@@ -8,6 +8,7 @@
 **A production-ready medical question-answering system combining fine-tuned LLMs with retrieval-augmented generation over PubMed literature.**
 
 MedLlama demonstrates end-to-end ML engineering: data curation, QLoRA SFT + DPO alignment, hybrid retrieval with cross-encoder reranking, streaming FastAPI serving, and Docker containerization.
+<img width="1920" height="1080" alt="image for linkedin v2" src="https://github.com/user-attachments/assets/59b7ba75-6c50-4866-8ec8-4df5ddc563e5" />
 
 ## Architecture
 
